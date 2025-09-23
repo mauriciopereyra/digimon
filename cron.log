@@ -1,0 +1,646 @@
+
+(process:29286): dconf-WARNING **: 01:59:06.625: failed to commit changes to dconf: Cannot autolaunch D-Bus without X11 $DISPLAY
+HP is 100
+XP is 0
+Level is 0
+Wallpaper set to: /home/mauricio/github/digimon/wallpapers/koromon.jpg
+
+(process:29302): dconf-WARNING **: 02:00:09.809: failed to commit changes to dconf: Cannot autolaunch D-Bus without X11 $DISPLAY
+HP is 100
+XP is 0
+Level is 0
+Wallpaper set to: /home/mauricio/github/digimon/wallpapers/koromon.jpg
+
+(process:29315): dconf-WARNING **: 02:01:07.416: failed to commit changes to dconf: Cannot autolaunch D-Bus without X11 $DISPLAY
+HP is 100
+XP is 0
+Level is 0
+Wallpaper set to: /home/mauricio/github/digimon/wallpapers/koromon.jpg
+HP is 100
+XP is 0
+Level is 0
+Wallpaper set to: /home/mauricio/github/digimon/wallpapers/koromon.jpg
+HP is 100
+XP is 0
+Level is 0
+Wallpaper set to: /home/mauricio/github/digimon/wallpapers/koromon.jpg
+HP is 100
+XP is 0
+Level is 0
+Wallpaper set to: /home/mauricio/github/digimon/wallpapers/koromon.jpg
+[{'id': 'e717576e-a086-4861-a7ff-40824ca8ac1b', 'name': 'Sentiment', 'type': 'drop_down', 'type_config': {'ai': {'source': 'sentiment'}, 'options': [{'id': '93daf6d7-3ae4-4d72-ad16-67d41131be2a', 'name': 'Positive', 'color': '#2ecd6f', 'orderindex': 0}, {'id': '451e735f-0cda-48cc-9e07-a846e12a0341', 'name': 'Neutral', 'color': '', 'orderindex': 1}, {'id': '5d15fc5f-b526-4a9d-a014-a55aba7d56c7', 'name': 'Negative', 'color': '#e50000', 'orderindex': 2}]}, 'date_created': '1741269649886', 'hide_from_guests': False, 'required': False}, {'id': '4c786bed-b8eb-4146-bd98-774e2aafd309', 'name': 'points', 'type': 'number', 'type_config': {}, 'date_created': '1758654578306', 'hide_from_guests': False, 'value': '50', 'value_richtext': '', 'required': False}]
+HP is 40
+XP is -20
+Level is 0
+Wallpaper set to: /home/mauricio/github/digimon/wallpapers/koromon.jpg
+{'clickup_id': '86eux8fw8', 'task_name': 'Anual blood test Tony', 'due_date': 1758834000.0, 'date_done': 1758206005.438, 'points': 10}
+{'clickup_id': '86eux8fv9', 'task_name': 'Anual blood test Tony', 'due_date': None, 'date_done': 1758205892.371, 'points': 10}
+{'clickup_id': '86euwfrmb', 'task_name': 'organize shirt', 'due_date': 1758056400.0, 'date_done': 1758094973.138, 'points': 10}
+{'clickup_id': '86euwf6j0', 'task_name': 'Put list', 'due_date': 1758574800.0, 'date_done': None, 'points': 5}
+{'clickup_id': '86euuug6p', 'task_name': 'prepare kids training 2', 'due_date': 1758229200.0, 'date_done': 1758439392.622, 'points': 10}
+{'clickup_id': '86euu10je', 'task_name': 'prepare kids training 1', 'due_date': 1758056400.0, 'date_done': 1758376467.715, 'points': 10}
+{'clickup_id': '86eutnfze', 'task_name': 'boost post', 'due_date': 1757365200.0, 'date_done': 1757391604.635, 'points': 10}
+{'clickup_id': '86eutnfp4', 'task_name': 'Put list', 'due_date': 1757970000.0, 'date_done': 1758180819.753, 'points': 10}
+{'clickup_id': '86eurjrnv', 'task_name': 'prepare kids training 2', 'due_date': 1757538000.0, 'date_done': 1757585483.494, 'points': 10}
+{'clickup_id': '86euqrxnc', 'task_name': 'prepare kids training 1', 'due_date': 1757451600.0, 'date_done': 1757462750.119, 'points': 10}
+{'clickup_id': '86euq9fxm', 'task_name': 'Put list', 'due_date': 1757365200.0, 'date_done': 1757385333.558, 'points': 10}
+{'clickup_id': '86eunv3n5', 'task_name': 'prepare kids training 2', 'due_date': 1757019600.0, 'date_done': 1757272755.179, 'points': 10}
+{'clickup_id': '86eun113u', 'task_name': 'prepare kids training 1', 'due_date': 1756846800.0, 'date_done': 1757011136.811, 'points': 10}
+{'clickup_id': '86eumj7wz', 'task_name': 'Put list', 'due_date': 1756760400.0, 'date_done': 1756842088.226, 'points': 10}
+{'clickup_id': '86eukaunv', 'task_name': 'prepare kids training 2', 'due_date': 1756414800.0, 'date_done': 1756568160.432, 'points': 10}
+{'clickup_id': '86eujmx0w', 'task_name': 'prepare kids training 1', 'due_date': 1756242000.0, 'date_done': 1756325459.634, 'points': 10}
+{'clickup_id': '86eujanc4', 'task_name': 'Put list', 'due_date': 1756155600.0, 'date_done': 1756214114.574, 'points': 10}
+{'clickup_id': '86eujanbt', 'task_name': 'Put list', 'due_date': 1755637200.0, 'date_done': 1755644429.253, 'points': 10}
+{'clickup_id': '86eugu1f7', 'task_name': 'prepare kids training 2', 'due_date': 1755810000.0, 'date_done': 1755972931.156, 'points': 10}
+{'clickup_id': '86eug0h9f', 'task_name': 'prepare kids training 1', 'due_date': 1755637200.0, 'date_done': 1755972930.065, 'points': 10}
+{'clickup_id': '86eue8h53', 'task_name': 'prepare kids training 2', 'due_date': 1755205200.0, 'date_done': 1755635621.15, 'points': 10}
+{'clickup_id': '86eudfwdn', 'task_name': 'prepare kids training 1', 'due_date': 1755032400.0, 'date_done': 1755411593.477, 'points': 10}
+{'clickup_id': '86eudfk6h', 'task_name': 'call schools', 'due_date': 1755550800.0, 'date_done': 1755635599.361, 'points': 10}
+{'clickup_id': '86eudfk6e', 'task_name': 'follow up schools on facebook', 'due_date': 1755464400.0, 'date_done': 1755635636.933, 'points': 10}
+{'clickup_id': '86eudegxk', 'task_name': 'put list and inform saturday no training', 'due_date': 1754427600.0, 'date_done': 1754438189.186, 'points': 10}
+{'clickup_id': '86eud4kef', 'task_name': 'select videos and share with tony academy', 'due_date': 1754341200.0, 'date_done': 1754409052.335, 'points': 10}
+{'clickup_id': '86eucd5yk', 'task_name': 'prepare emails contacts', 'due_date': 1754168400.0, 'date_done': 1754342990.439, 'points': 10}
+{'clickup_id': '86eucd5v6', 'task_name': 'send emails to schools with project', 'due_date': 1754254800.0, 'date_done': 1754429849.232, 'points': 10}
+{'clickup_id': '86eucb7h0', 'task_name': 'prepare kids training 2', 'due_date': 1754686800.0, 'date_done': 1754689342.216, 'points': 10}
+{'clickup_id': '86euc26qq', 'task_name': 'remove admin of not used fb', 'due_date': 1754082000.0, 'date_done': 1753990189.227, 'points': 10}
+{'clickup_id': '86eubqzmt', 'task_name': 'create proyect for schools', 'due_date': 1753995600.0, 'date_done': 1754087994.748, 'points': 10}
+{'clickup_id': '86eubqgzj', 'task_name': 'prepare kids training 1', 'due_date': 1754427600.0, 'date_done': 1754435081.019, 'points': 10}
+{'clickup_id': '86eub454g', 'task_name': 'post new video on social', 'due_date': 1758488400.0, 'date_done': None, 'points': 10}
+{'clickup_id': '86eub3z7g', 'task_name': 'download all coach videos', 'due_date': 1753650000.0, 'date_done': 1753895432.64, 'points': 10}
+{'clickup_id': '86eub2h9g', 'task_name': 'register tony fc in tournament', 'due_date': 1753909200.0, 'date_done': 1753915469.928, 'points': 10}
+{'clickup_id': '86eua3tbb', 'task_name': 'prepare kids training 2', 'due_date': 1753995600.0, 'date_done': 1754172741.445, 'points': 10}
+{'clickup_id': '86eu9bm63', 'task_name': 'prepare kids training 1', 'due_date': 1753822800.0, 'date_done': 1754138358.814, 'points': 10}
+{'clickup_id': '86eu8r4hx', 'task_name': 'buy extra equipment', 'due_date': 1753131600.0, 'date_done': 1753431921.116, 'points': 10}
+{'clickup_id': '86eu8r1v7', 'task_name': 'coach exam', 'due_date': 1753131600.0, 'date_done': 1753169667.116, 'points': 10}
+{'clickup_id': '86eu7dnx0', 'task_name': 'prepare kids training 2', 'due_date': 1753390800.0, 'date_done': 1753616437.471, 'points': 10}
+{'clickup_id': '86eu7864u', 'task_name': 'add cv to project', 'due_date': 1752872400.0, 'date_done': 1752904049.89, 'points': 10}
+{'clickup_id': '86eu7860p', 'task_name': 'remove white from logo background', 'due_date': 1752786000.0, 'date_done': 1752824713.311, 'points': 10}
+{'clickup_id': '86eu6h4ng', 'task_name': 'prepare kids training 1', 'due_date': 1753218000.0, 'date_done': 1753616438.528, 'points': 10}
+{'clickup_id': '86eu5x80v', 'task_name': 'create video tony academy', 'due_date': 1752440400.0, 'date_done': 1752634624.529, 'points': 10}
+{'clickup_id': '86eu5dzb8', 'task_name': 'check payments', 'due_date': 1752354000.0, 'date_done': 1752557648.575, 'points': 10}
+{'clickup_id': '86eu5da2n', 'task_name': 'marketing tony academy', 'due_date': 1752958800.0, 'date_done': 1753988292.976, 'points': 10}
+{'clickup_id': '86eu5d3qr', 'task_name': 'post pic benefits', 'due_date': 1752440400.0, 'date_done': 1752475802.179, 'points': 10}
+{'clickup_id': '86eu4t4n2', 'task_name': 'prepare kids training 2', 'due_date': 1752958800.0, 'date_done': 1753009990.151, 'points': 10}
+{'clickup_id': '86eu447me', 'task_name': 'prepare kids training 1', 'due_date': 1752613200.0, 'date_done': 1752904024.9, 'points': 10}
+{'clickup_id': '86eu3tvbx', 'task_name': 'open tiktok', 'due_date': 1752958800.0, 'date_done': 1753914821.814, 'points': 10}
+{'clickup_id': '86eu3tvbm', 'task_name': 'open ig', 'due_date': 1752958800.0, 'date_done': 1753914823.151, 'points': 10}
+{'clickup_id': '86eu3tvbc', 'task_name': 'post video on facebook', 'due_date': 1752008400.0, 'date_done': 1752098786.068, 'points': 10}
+{'clickup_id': '86eu3d1z1', 'task_name': 'create video for tony academy', 'due_date': 1751922000.0, 'date_done': 1751932828.624, 'points': 10}
+{'clickup_id': '86eu2z9f8', 'task_name': 'check payments of last weekend', 'due_date': 1751835600.0, 'date_done': 1751845234.53, 'points': 10}
+{'clickup_id': '86eu2yzxn', 'task_name': 'fix crypto', 'due_date': 1751749200.0, 'date_done': 1751832609.145, 'points': 10}
+{'clickup_id': '86eu2fjw2', 'task_name': 'prepare kids training 2', 'due_date': 1752181200.0, 'date_done': 1752395499.096, 'points': 10}
+{'clickup_id': '86eu2fjgg', 'task_name': 'prepare kids training 1', 'due_date': 1752008400.0, 'date_done': 1752362603.163, 'points': 10}
+{'clickup_id': '86etzg0p6', 'task_name': 'prepare kids training 1', 'due_date': 1751576400.0, 'date_done': 1751704821.318, 'points': 10}
+{'clickup_id': '86etzfur6', 'task_name': 'prepare kids training 2', 'due_date': 1751576400.0, 'date_done': 1751790736.887, 'points': 10}
+{'clickup_id': '86etyq1m1', 'task_name': 'pending class', 'due_date': 1750798800.0, 'date_done': 1750892782.124, 'points': 10}
+{'clickup_id': '86etx8105', 'task_name': 'confirm hours to pan', 'due_date': 1750626000.0, 'date_done': 1750667301.51, 'points': 10}
+{'clickup_id': '86etwp4pm', 'task_name': 'prepare kids training 2', 'due_date': 1750885200.0, 'date_done': 1751037650.441, 'points': 10}
+{'clickup_id': '86etwp4ev', 'task_name': 'prepare kids training 1', 'due_date': 1750885200.0, 'date_done': 1751139567.859, 'points': 10}
+{'clickup_id': '86etu71br', 'task_name': 'prepare kids training 2', 'due_date': 1750366800.0, 'date_done': 1750612403.552, 'points': 10}
+{'clickup_id': '86etu1272', 'task_name': 'prepare kids training 1', 'due_date': 1750366800.0, 'date_done': 1750612400.855, 'points': 10}
+{'clickup_id': '86eth61m4', 'task_name': 'post tony academy on fb groups', 'due_date': 1758488400.0, 'date_done': None, 'points': 10}
+{'clickup_id': '86euy337n', 'task_name': 'add buenos modales slide', 'due_date': 1758488400.0, 'date_done': None, 'points': 10}
+{'clickup_id': '86euwppe9', 'task_name': 'prepare spanish classes', 'due_date': 1758142800.0, 'date_done': 1758217311.134, 'points': 10}
+{'clickup_id': '86euv8wmx', 'task_name': 'Lamud 6 pm', 'due_date': 1758229200.0, 'date_done': 1758206020.972, 'points': 10}
+{'clickup_id': '86euuanza', 'task_name': 'Lamud 6 pm', 'due_date': 1758056400.0, 'date_done': 1758179905.155, 'points': 10}
+{'clickup_id': '86euu4fed', 'task_name': 'Gift 11 am', 'due_date': 1758056400.0, 'date_done': 1758085902.941, 'points': 10}
+{'clickup_id': '86eut4btu', 'task_name': 'arrange time with kwan', 'due_date': 1757278800.0, 'date_done': 1757392030.374, 'points': 10}
+{'clickup_id': '86eut4bj1', 'task_name': 'Japanese 2 pm', 'due_date': 1757451600.0, 'date_done': 1757556928.455, 'points': 10}
+{'clickup_id': '86eurjrp6', 'task_name': 'Lamud 6 pm', 'due_date': 1757624400.0, 'date_done': 1757750610.299, 'points': 10}
+{'clickup_id': '86eur8eum', 'task_name': 'prepare class b1', 'due_date': 1756933200.0, 'date_done': 1757002697.061, 'points': 10}
+{'clickup_id': '86euqragp', 'task_name': 'Gift 11 am', 'due_date': 1757278800.0, 'date_done': 1757324808.387, 'points': 10}
+{'clickup_id': '86euqraek', 'task_name': 'Lamud 6 pm', 'due_date': 1757451600.0, 'date_done': 1757556929.411, 'points': 10}
+{'clickup_id': '86euqjten', 'task_name': 'Gift 11 am', 'due_date': 1757451600.0, 'date_done': 1757486766.537, 'points': 10}
+{'clickup_id': '86euqbt7w', 'task_name': 'Gift 11 am', 'due_date': 1756846800.0, 'date_done': 1756885058.462, 'points': 10}
+{'clickup_id': '86eunv3nj', 'task_name': 'Lamud 6 pm', 'due_date': 1757019600.0, 'date_done': 1757122612.574, 'points': 10}
+{'clickup_id': '86eun10f8', 'task_name': 'Lamud 6 pm', 'due_date': 1756846800.0, 'date_done': 1756910876.362, 'points': 10}
+{'clickup_id': '86eun0xvb', 'task_name': 'check time for pan and kwan', 'due_date': 1756328400.0, 'date_done': 1756405734.142, 'points': 10}
+{'clickup_id': '86eumjdy0', 'task_name': 'check time for new student', 'due_date': 1756328400.0, 'date_done': 1756405726.4, 'points': 10}
+{'clickup_id': '86eum6fr5', 'task_name': 'Yonlada 2 pm', 'due_date': 1756674000.0, 'date_done': 1756752550.969, 'points': 10}
+{'clickup_id': '86eum6ffx', 'task_name': 'Pooh 6 pm', 'due_date': 1756674000.0, 'date_done': 1756752548.34, 'points': 10}
+{'clickup_id': '86euk6xuw', 'task_name': 'Lamud 6 pm', 'due_date': 1756414800.0, 'date_done': 1756489452.718, 'points': 10}
+{'clickup_id': '86euk00kw', 'task_name': 'Pan 4 pm', 'due_date': 1756328400.0, 'date_done': 1756405736.209, 'points': 10}
+{'clickup_id': '86eujk6b2', 'task_name': 'Lamud 6 pm', 'due_date': 1756242000.0, 'date_done': 1756325461.693, 'points': 10}
+{'clickup_id': '86eujap5y', 'task_name': 'Analyze spanish programs', 'due_date': 1756069200.0, 'date_done': 1756325464.838, 'points': 10}
+{'clickup_id': '86euj8p5v', 'task_name': 'Pan 4 pm', 'due_date': 1756155600.0, 'date_done': 1756214116.289, 'points': 10}
+{'clickup_id': '86euhuauq', 'task_name': 'Yonlada 2 pm', 'due_date': 1756069200.0, 'date_done': 1756150771.92, 'points': 10}
+{'clickup_id': '86euhuah8', 'task_name': 'Pooh 6 pm', 'due_date': 1756069200.0, 'date_done': 1756150762.576, 'points': 10}
+{'clickup_id': '86eugu1fb', 'task_name': 'Lamud 6 pm', 'due_date': 1755810000.0, 'date_done': 1755852076.391, 'points': 10}
+{'clickup_id': '86eugu1cy', 'task_name': 'Kwan 4 pm', 'due_date': 1755810000.0, 'date_done': 1755857299.276, 'points': 10}
+{'clickup_id': '86eugc7ju', 'task_name': 'Pan 4 pm', 'due_date': 1755723600.0, 'date_done': 1755804845.797, 'points': 10}
+{'clickup_id': '86eug0gjb', 'task_name': 'Lamud 6 pm', 'due_date': 1755637200.0, 'date_done': 1755693320.11, 'points': 10}
+{'clickup_id': '86eufjyuv', 'task_name': 'Pan 4 pm', 'due_date': 1755550800.0, 'date_done': 1755635624.935, 'points': 10}
+{'clickup_id': '86euf5ek0', 'task_name': 'Yonlada 2 pm', 'due_date': 1755464400.0, 'date_done': 1755635608.804, 'points': 10}
+{'clickup_id': '86euf5eca', 'task_name': 'Pooh 6 pm', 'due_date': 1755464400.0, 'date_done': 1755635607.336, 'points': 10}
+{'clickup_id': '86eue26n9', 'task_name': 'sonia 4 pm', 'due_date': 1754859600.0, 'date_done': 1754985535.62, 'points': 10}
+{'clickup_id': '86eudrn9q', 'task_name': 'Lamud 6 pm', 'due_date': 1755032400.0, 'date_done': 1755149980.718, 'points': 10}
+{'clickup_id': '86eudegqb', 'task_name': 'Pan 4 pm', 'due_date': 1754946000.0, 'date_done': 1755149971.354, 'points': 10}
+{'clickup_id': '86eud4bzu', 'task_name': 'Kwan 4 pm', 'due_date': 1755205200.0, 'date_done': 1755411594.955, 'points': 10}
+{'clickup_id': '86eud4bze', 'task_name': 'Lamud 6 pm', 'due_date': 1755205200.0, 'date_done': 1755411585.814, 'points': 10}
+{'clickup_id': '86eud4byp', 'task_name': 'Pan 4 pm', 'due_date': 1755118800.0, 'date_done': 1755233504.323, 'points': 10}
+{'clickup_id': '86eud4bx4', 'task_name': 'confirm time for sonia', 'due_date': 1754341200.0, 'date_done': 1754342088.006, 'points': 10}
+{'clickup_id': '86eud34dc', 'task_name': 'Yonlada 2 pm', 'due_date': 1754859600.0, 'date_done': 1754985534.586, 'points': 10}
+{'clickup_id': '86eud346k', 'task_name': 'Pooh 6 pm', 'due_date': 1754859600.0, 'date_done': 1754985536.994, 'points': 10}
+{'clickup_id': '86eucb7hc', 'task_name': 'Lamud 6 pm', 'due_date': 1754600400.0, 'date_done': 1754340914.493, 'points': 10}
+{'clickup_id': '86eubqg9w', 'task_name': 'Lamud 6 pm', 'due_date': 1754427600.0, 'date_done': 1754586363.592, 'points': 10}
+{'clickup_id': '86eub2zk9', 'task_name': 'Kwan 4 pm', 'due_date': 1754600400.0, 'date_done': 1754340917.843, 'points': 10}
+{'clickup_id': '86euazvf9', 'task_name': 'Pooh 6 pm', 'due_date': 1754254800.0, 'date_done': 1754340863.144, 'points': 10}
+{'clickup_id': '86eua131n', 'task_name': 'Lamud 6 pm', 'due_date': 1753995600.0, 'date_done': 1754077992.893, 'points': 10}
+{'clickup_id': '86eua0pwh', 'task_name': 'Kwan 4 pm', 'due_date': 1753995600.0, 'date_done': 1753725197.618, 'points': 10}
+{'clickup_id': '86eu9mnhn', 'task_name': 'Pan 4 pm', 'due_date': 1754514000.0, 'date_done': 1754340911.207, 'points': 10}
+{'clickup_id': '86eu9mna4', 'task_name': 'Pan 4 pm', 'due_date': 1754341200.0, 'date_done': 1754409049.624, 'points': 10}
+{'clickup_id': '86eu9mn5m', 'task_name': 'Pan 4 pm', 'due_date': 1753909200.0, 'date_done': 1753352100.757, 'points': 10}
+{'clickup_id': '86eu9bkgm', 'task_name': 'Lamud 6 pm', 'due_date': 1753822800.0, 'date_done': 1753895469.286, 'points': 10}
+{'clickup_id': '86eu8wjrp', 'task_name': 'Pan 4 pm', 'due_date': 1753736400.0, 'date_done': 1753352076.683, 'points': 10}
+{'clickup_id': '86eu8dzjz', 'task_name': 'Pooh 6 pm', 'due_date': 1753650000.0, 'date_done': 1753699147.831, 'points': 10}
+{'clickup_id': '86eu8bwfn', 'task_name': 'Yonlada 2 pm', 'due_date': 1754254800.0, 'date_done': 1754340861.818, 'points': 10}
+{'clickup_id': '86eu8bw5n', 'task_name': 'Yonlada 2 pm', 'due_date': 1753650000.0, 'date_done': 1753094437.616, 'points': 10}
+{'clickup_id': '86eu7dnxf', 'task_name': 'Lamud 6 pm', 'due_date': 1753390800.0, 'date_done': 1753439811.916, 'points': 10}
+{'clickup_id': '86eu7dnv2', 'task_name': 'Kwan 4 pm', 'due_date': 1753390800.0, 'date_done': 1753438165.144, 'points': 10}
+{'clickup_id': '86eu787e0', 'task_name': 'fiaw 4 pm', 'due_date': 1753045200.0, 'date_done': 1753094419.858, 'points': 10}
+{'clickup_id': '86eu6w73r', 'task_name': 'Pan 4 pm', 'due_date': 1753304400.0, 'date_done': 1753352059.949, 'points': 10}
+{'clickup_id': '86eu6h40n', 'task_name': 'Lamud 6 pm', 'due_date': 1753218000.0, 'date_done': 1753352053.406, 'points': 10}
+{'clickup_id': '86eu64h8x', 'task_name': 'Pan 4 pm', 'due_date': 1753131600.0, 'date_done': 1753188968.248, 'points': 10}
+{'clickup_id': '86eu60b0v', 'task_name': 'Fiaw 4 pm', 'due_date': 1752613200.0, 'date_done': 1752719877.707, 'points': 10}
+{'clickup_id': '86eu5x32r', 'task_name': 'reply Siriporn', 'due_date': 1752440400.0, 'date_done': 1752557192.613, 'points': 10}
+{'clickup_id': '86eu5n9rv', 'task_name': 'Yonlada 2 pm', 'due_date': 1753045200.0, 'date_done': 1753094419.14, 'points': 10}
+{'clickup_id': '86eu5d50t', 'task_name': 'prepare spanish class', 'due_date': 1752613200.0, 'date_done': 1752937296.554, 'points': 10}
+{'clickup_id': '86eu5d4me', 'task_name': 'check expiring times', 'due_date': 1752440400.0, 'date_done': 1752475803.725, 'points': 10}
+{'clickup_id': '86eu5d1y7', 'task_name': 'find time slot for navy', 'due_date': 1752440400.0, 'date_done': 1752472889.909, 'points': 10}
+{'clickup_id': '86eu5cxfg', 'task_name': 'Pooh 6 pm', 'due_date': 1753045200.0, 'date_done': 1753099798.315, 'points': 10}
+{'clickup_id': '86eu4w960', 'task_name': 'send application to fiaw', 'due_date': 1752267600.0, 'date_done': 1752471827.076, 'points': 10}
+{'clickup_id': '86eu4pjwz', 'task_name': 'Kwan 4 pm', 'due_date': 1752786000.0, 'date_done': 1752904026.11, 'points': 10}
+{'clickup_id': '86eu4jdr8', 'task_name': 'Lamud 6 pm', 'due_date': 1752786000.0, 'date_done': 1752904027.344, 'points': 10}
+{'clickup_id': '86eu4e4a5', 'task_name': 'Pan 4 pm', 'due_date': 1752699600.0, 'date_done': 1752751615.76, 'points': 10}
+{'clickup_id': '86eu4bbum', 'task_name': 'group class 1 pm', 'due_date': 1752267600.0, 'date_done': 1752362600.272, 'points': 10}
+{'clickup_id': '86eu45r91', 'task_name': 'schedule 1st class with navy and fiaw', 'due_date': 1752094800.0, 'date_done': 1752135995.441, 'points': 10}
+{'clickup_id': '86eu45r8t', 'task_name': 'record classes for fiaw and navy (2, 3, 4)', 'due_date': 1752094800.0, 'date_done': 1752556687.247, 'points': 10}
+{'clickup_id': '86eu45jmq', 'task_name': 'send 3rd class to lamud', 'due_date': 1752094800.0, 'date_done': 1752137325.536, 'points': 10}
+{'clickup_id': '86eu4472d', 'task_name': 'Lamud 6 pm', 'due_date': 1752613200.0, 'date_done': 1752719878.949, 'points': 10}
+{'clickup_id': '86eu3rqqn', 'task_name': 'Pan 4 pm', 'due_date': 1752526800.0, 'date_done': 1752627235.397, 'points': 10}
+{'clickup_id': '86eu3btq4', 'task_name': 'Yonlada 2 pm', 'due_date': 1752440400.0, 'date_done': 1752556681.471, 'points': 10}
+{'clickup_id': '86eu3bthe', 'task_name': 'Pooh 6 pm', 'due_date': 1752440400.0, 'date_done': 1752471302.948, 'points': 10}
+{'clickup_id': '86eu307kc', 'task_name': 'test class spanish 5.30 pm', 'due_date': 1751922000.0, 'date_done': 1751999032.784, 'points': 10}
+{'clickup_id': '86eu2fk5t', 'task_name': 'Lamud 6 pm', 'due_date': 1752181200.0, 'date_done': 1752204323.582, 'points': 10}
+{'clickup_id': '86eu2fjmc', 'task_name': 'Kwan 4 pm', 'due_date': 1752181200.0, 'date_done': 1752228913.457, 'points': 10}
+{'clickup_id': '86eu28hun', 'task_name': 'prepare 2nd class spanish', 'due_date': 1752181200.0, 'date_done': 1752224139.297, 'points': 10}
+{'clickup_id': '86eu28huf', 'task_name': 'prepare 1st class spanish', 'due_date': 1752181200.0, 'date_done': 1752204329.773, 'points': 10}
+{'clickup_id': '86eu256kt', 'task_name': 'Pan 4 pm', 'due_date': 1752094800.0, 'date_done': 1752154599.157, 'points': 10}
+{'clickup_id': '86eu1q13v', 'task_name': 'Lamud 6 pm', 'due_date': 1752008400.0, 'date_done': 1752098780.211, 'points': 10}
+{'clickup_id': '86eu13b4m', 'task_name': 'Pan 4 pm', 'due_date': 1751922000.0, 'date_done': 1751999030.835, 'points': 10}
+{'clickup_id': '86eu0hrhr', 'task_name': 'Yonlada 2 pm', 'due_date': 1751835600.0, 'date_done': 1751914291.899, 'points': 10}
+{'clickup_id': '86eu0hrhh', 'task_name': 'Pooh 6 pm', 'due_date': 1751835600.0, 'date_done': 1751914292.368, 'points': 10}
+{'clickup_id': '86etu0dyk', 'task_name': 'prepare kids training 2', 'due_date': 1749848400.0, 'date_done': 1749959774.732, 'points': 10}
+{'clickup_id': '86ettzp5a', 'task_name': 'prepare kids training 1', 'due_date': 1749762000.0, 'date_done': 1749802449.673, 'points': 10}
+{'clickup_id': '86etta8qu', 'task_name': 'return shirt', 'due_date': 1749762000.0, 'date_done': 1749771409.522, 'points': 10}
+{'clickup_id': '86etrqaa8', 'task_name': 'post video on tony academy', 'due_date': 1749502800.0, 'date_done': 1749601848.654, 'points': 10}
+{'clickup_id': '86etr67e5', 'task_name': 'stamp logo on shirt', 'due_date': 1749502800.0, 'date_done': 1749638445.87, 'points': 10}
+{'clickup_id': '86etr67dn', 'task_name': 'buy bag for balls', 'due_date': 1749330000.0, 'date_done': 1749386423.815, 'points': 10}
+{'clickup_id': '86etr67dh', 'task_name': 'buy extra balls?', 'due_date': 1749330000.0, 'date_done': 1749388183.8, 'points': 10}
+{'clickup_id': '86etqzrg5', 'task_name': 'Nattan 1 pm', 'due_date': 1749934800.0, 'date_done': 1749957362.883, 'points': 10}
+{'clickup_id': '86etqx18j', 'task_name': 'prepare 1st class spanish', 'due_date': 1749762000.0, 'date_done': 1748716435.786, 'points': 10}
+{'clickup_id': '86etqx17w', 'task_name': 'prepare 1st class spanish', 'due_date': 1749157200.0, 'date_done': 1748716435.786, 'points': 10}
+{'clickup_id': '86etqmwwa', 'task_name': 'prepare training kids', 'due_date': 1749157200.0, 'date_done': 1749229209.483, 'points': 10}
+{'clickup_id': '86etpxdrx', 'task_name': 'buy more balls', 'due_date': 1748984400.0, 'date_done': 1749066395.364, 'points': 10}
+{'clickup_id': '86etpvtn5', 'task_name': 'invite other parents to the group', 'due_date': 1748984400.0, 'date_done': 1748995402.871, 'points': 10}
+{'clickup_id': '86etpvtmu', 'task_name': 'send app', 'due_date': 1748984400.0, 'date_done': 1748991700.491, 'points': 10}
+{'clickup_id': '86etpeqmu', 'task_name': 'book pitch saturday', 'due_date': 1748898000.0, 'date_done': 1748967435.746, 'points': 10}
+{'clickup_id': '86etpej76', 'task_name': 'Pooh 6 pm', 'due_date': 1749416400.0, 'date_done': 1748876436.147, 'points': 10}
+{'clickup_id': '86etpej5j', 'task_name': 'Yonlada 2 pm', 'due_date': 1749416400.0, 'date_done': 1748876433.082, 'points': 10}
+{'clickup_id': '86etp497h', 'task_name': 'Nattan 2 pm', 'due_date': 1749330000.0, 'date_done': 1749374340.851, 'points': 10}
+{'clickup_id': '86etp48xj', 'task_name': 'Kwan 4 pm', 'due_date': 1749502800.0, 'date_done': 1749550283.394, 'points': 10}
+{'clickup_id': '86etp48x4', 'task_name': 'Kwan 4 pm', 'due_date': 1749157200.0, 'date_done': 1749219711.507, 'points': 10}
+{'clickup_id': '86etp48w2', 'task_name': 'Kwan 4 pm', 'due_date': 1749070800.0, 'date_done': 1749117139.991, 'points': 10}
+{'clickup_id': '86etp48u6', 'task_name': 'Kwan 4 pm', 'due_date': 1748984400.0, 'date_done': 1749031535.52, 'points': 10}
+{'clickup_id': '86etp48nj', 'task_name': 'Kwan 4 pm', 'due_date': 1748898000.0, 'date_done': 1748967430.053, 'points': 10}
+{'clickup_id': '86etp48mc', 'task_name': 'Kwan 4 pm', 'due_date': 1748811600.0, 'date_done': 1748876434.22, 'points': 10}
+{'clickup_id': '86etp48ef', 'task_name': 'Yonlada 2 pm', 'due_date': 1748811600.0, 'date_done': 1748876433.082, 'points': 10}
+{'clickup_id': '86etp48by', 'task_name': 'Pooh 6 pm', 'due_date': 1748811600.0, 'date_done': 1748876436.147, 'points': 10}
+{'clickup_id': '86etnuqc5', 'task_name': 'prepare 2nd class spanish', 'due_date': 1749157200.0, 'date_done': 1748716435.786, 'points': 10}
+{'clickup_id': '86etnuq01', 'task_name': 'buy balls for academy', 'due_date': 1748725200.0, 'date_done': 1748758564.97, 'points': 10}
+{'clickup_id': '86etnaw5t', 'task_name': 'prepare class 6', 'due_date': 1748552400.0, 'date_done': 1748757369.221, 'points': 10}
+{'clickup_id': '86etnaw47', 'task_name': 'prepare class 5', 'due_date': 1748552400.0, 'date_done': 1748739584.951, 'points': 10}
+{'clickup_id': '86etkz4e1', 'task_name': 'create questions for spanish system', 'due_date': 1748552400.0, 'date_done': 1748716427.39, 'points': 10}
+{'clickup_id': '86etkwqm0', 'task_name': 'buy domain TeacherOh.com', 'due_date': 1748379600.0, 'date_done': 1748388158.478, 'points': 10}
+{'clickup_id': '86etkwqhy', 'task_name': 'deploy spanish system', 'due_date': 1748379600.0, 'date_done': 1748474213.361, 'points': 10}
+{'clickup_id': '86etkgwcb', 'task_name': 'send files for printing logo', 'due_date': 1748206800.0, 'date_done': 1748193913.47, 'points': 10}
+{'clickup_id': '86etk979c', 'task_name': 'create system for spanish practice locally', 'due_date': 1748206800.0, 'date_done': 1748292839.9, 'points': 10}
+{'clickup_id': '86etjtv91', 'task_name': 'prepare class spanish', 'due_date': 1748725200.0, 'date_done': 1748716435.786, 'points': 10}
+{'clickup_id': '86ethq399', 'task_name': 'prepare class spanish 4', 'due_date': 1747947600.0, 'date_done': 1748081627.189, 'points': 10}
+{'clickup_id': '86etgt6j2', 'task_name': 'prepare class spanish', 'due_date': 1748120400.0, 'date_done': 1747946066.24, 'points': 10}
+{'clickup_id': '86etgnqt3', 'task_name': 'prepare class spanish 3', 'due_date': 1747602000.0, 'date_done': 1747732508.876, 'points': 10}
+{'clickup_id': '86etfvbtu', 'task_name': 'create new cover for spanish page', 'due_date': 1748725200.0, 'date_done': 1748794169.568, 'points': 10}
+{'clickup_id': '86eteybdr', 'task_name': 'boost spanish ads', 'due_date': 1747170000.0, 'date_done': 1747206775.798, 'points': 10}
+{'clickup_id': '86etc0rv7', 'task_name': 'prepare schedule', 'due_date': 1746392400.0, 'date_done': 1746445933.407, 'points': 10}
+{'clickup_id': '86etc0rtz', 'task_name': 'boost chess', 'due_date': 1746392400.0, 'date_done': 1746445929.704, 'points': 10}
+{'clickup_id': '86etc0rrj', 'task_name': 'create account for chess', 'due_date': 1746306000.0, 'date_done': 1746439069.005, 'points': 10}
+{'clickup_id': '86etc0rpr', 'task_name': 'create account for football', 'due_date': 1746738000.0, 'date_done': 1746794988.693, 'points': 10}
+{'clickup_id': '86etbq1gp', 'task_name': 'create video for spanish', 'due_date': 1747688400.0, 'date_done': 1747943487.585, 'points': 10}
+{'clickup_id': '86etbq1fx', 'task_name': 'prepare outline of program for spanish', 'due_date': 1746392400.0, 'date_done': 1746958809.411, 'points': 10}
+{'clickup_id': '86etbpgxg', 'task_name': 'fix ais', 'due_date': 1747083600.0, 'date_done': 1747155786.614, 'points': 10}
+{'clickup_id': '86etbe7au', 'task_name': 'set automatic replies for spanish page', 'due_date': 1746219600.0, 'date_done': 1746461443.625, 'points': 10}
+{'clickup_id': '86etbe6er', 'task_name': 'boost ads for football', 'due_date': 1747170000.0, 'date_done': 1747491915.174, 'points': 10}
+{'clickup_id': '86etbe6e5', 'task_name': 'boost ads for chess', 'due_date': 1746219600.0, 'date_done': 1746445936.908, 'points': 10}
+{'clickup_id': '86etbe6d8', 'task_name': 'prepare program for spanish group classes', 'due_date': 1746478800.0, 'date_done': 1746897555.981, 'points': 10}
+{'clickup_id': '86etbe6c9', 'task_name': 'research coworking spaces for chess', 'due_date': 1746219600.0, 'date_done': 1746342219.638, 'points': 10}
+{'clickup_id': '86etaqgv8', 'task_name': 'cancel canva free trial', 'due_date': 1748466000.0, 'date_done': 1748453850.616, 'points': 10}
+{'clickup_id': '86etac0n6', 'task_name': 'prepare cv for contacting schools', 'due_date': 1745960400.0, 'date_done': 1746260164.659, 'points': 10}
+{'clickup_id': '86etac0c3', 'task_name': 'boost ads', 'due_date': 1745960400.0, 'date_done': 1746260171.96, 'points': 10}
+{'clickup_id': '86etac00u', 'task_name': 'create videos for chess', 'due_date': 1746306000.0, 'date_done': 1746348102.812, 'points': 10}
+{'clickup_id': '86etabzvx', 'task_name': 'post for 3 activities', 'due_date': 1745960400.0, 'date_done': 1746445940.097, 'points': 10}
+{'clickup_id': '86etabzn8', 'task_name': 'create accounts for 3 activities', 'due_date': 1746219600.0, 'date_done': 1746439053.037, 'points': 10}
+{'clickup_id': '86etabydh', 'task_name': 'send emails to schools about chess', 'due_date': 1745960400.0, 'date_done': 1746260163.469, 'points': 10}
+{'clickup_id': '86etaby70', 'task_name': 'contact ad about teaching', 'due_date': 1746478800.0, 'date_done': 1746958814.64, 'points': 10}
+{'clickup_id': '86et9k6hk', 'task_name': 'record video', 'due_date': 1745787600.0, 'date_done': 1745830052.268, 'points': 10}
+{'clickup_id': '86et9gn1q', 'task_name': 'research about paying ads', 'due_date': 1745787600.0, 'date_done': 1746260171.341, 'points': 10}
+{'clickup_id': '86et9gmzg', 'task_name': 'post in freelance websites', 'due_date': 1745787600.0, 'date_done': 1745830054.018, 'points': 10}
+{'clickup_id': '86et9gmv9', 'task_name': 'create account in freelance websites', 'due_date': 1745787600.0, 'date_done': 1745821209.61, 'points': 10}
+{'clickup_id': '86et9gmrf', 'task_name': 'create bio for mc jobs', 'due_date': 1745787600.0, 'date_done': 1745821204.318, 'points': 10}
+{'clickup_id': '86euudvtd', 'task_name': 'fix motorbike', 'due_date': 1757883600.0, 'date_done': 1757750617.268, 'points': 10}
+{'clickup_id': '86euudvm9', 'task_name': 'restart gym', 'due_date': 1757883600.0, 'date_done': 1758193497.952, 'points': 10}
+{'clickup_id': '86eutqf2p', 'task_name': 'Lawyer', 'due_date': 1757365200.0, 'date_done': 1757457473.606, 'points': 10}
+{'clickup_id': '86eunwjj9', 'task_name': 'immigration', 'due_date': 1757278800.0, 'date_done': 1757324805.665, 'points': 10}
+{'clickup_id': '86eujaqt3', 'task_name': 'fix tony condo', 'due_date': 1755982800.0, 'date_done': 1756405740.594, 'points': 10}
+{'clickup_id': '86eujaj18', 'task_name': 'sell crypto', 'due_date': 1756674000.0, 'date_done': 1757002692.391, 'points': 10}
+{'clickup_id': '86eu7zh23', 'task_name': 'contact lawyers', 'due_date': 1753045200.0, 'date_done': 1753109764.222, 'points': 10}
+{'clickup_id': '86eu7zh0r', 'task_name': 'prepare lawer stuff', 'due_date': 1752958800.0, 'date_done': 1753014912.674, 'points': 10}
+{'clickup_id': '86eu6mz7m', 'task_name': 'fix kplus', 'due_date': 1752699600.0, 'date_done': 1752751621.711, 'points': 10}
+{'clickup_id': '86eu5da7r', 'task_name': 'fix laptop', 'due_date': 1753650000.0, 'date_done': 1753432382.43, 'points': 10}
+{'clickup_id': '86eu2yzy7', 'task_name': 'sell crypto', 'due_date': 1751749200.0, 'date_done': 1751832610.38, 'points': 10}
+{'clickup_id': '86eu1tu79', 'task_name': 'buy pills', 'due_date': 1751490000.0, 'date_done': 1751603958.281, 'points': 10}
+{'clickup_id': '86etyyphh', 'task_name': 'clean tony water', 'due_date': 1750885200.0, 'date_done': 1751037659.0, 'points': 10}
+{'clickup_id': '86etyqa9d', 'task_name': 'holidays with Nin', 'due_date': None, 'date_done': 1755643383.651, 'points': 10}
+{'clickup_id': '86etyqa94', 'task_name': 'holidays with Nin', 'due_date': 1756069200.0, 'date_done': 1755643354.845, 'points': 10}
+{'clickup_id': '86etw7q7p', 'task_name': 'update accounting', 'due_date': 1750280400.0, 'date_done': 1750613150.48, 'points': 10}
+{'clickup_id': '86etvkfkr', 'task_name': 'Yok 10:20 am', 'due_date': 1751230800.0, 'date_done': 1751316152.737, 'points': 10}
+{'clickup_id': '86etufzfd', 'task_name': 'take tony to doctor', 'due_date': 1750885200.0, 'date_done': 1750951221.95, 'points': 10}
+{'clickup_id': '86etubjkf', 'task_name': 'write letter to muengman', 'due_date': 1749762000.0, 'date_done': 1749971940.674, 'points': 10}
+{'clickup_id': '86ettaghk', 'task_name': 'send oum shirt', 'due_date': 1749762000.0, 'date_done': 1749971938.995, 'points': 10}
+{'clickup_id': '86ettaggb', 'task_name': 'barber', 'due_date': 1749762000.0, 'date_done': 1749871932.767, 'points': 10}
+{'clickup_id': '86etqmucf', 'task_name': 'gym routine (add cardio and focus on chest)', 'due_date': 1749330000.0, 'date_done': 1749409922.738, 'points': 10}
+{'clickup_id': '86ethegwq', 'task_name': 'pills', 'due_date': 1747688400.0, 'date_done': 1747758131.049, 'points': 10}
+{'clickup_id': '86et73f5m', 'task_name': 'clean tony house', 'due_date': 1746219600.0, 'date_done': 1746344845.439, 'points': 10}
+{'clickup_id': '86et6h4p0', 'task_name': 'barber', 'due_date': 1745269200.0, 'date_done': 1745397401.989, 'points': 10}
+{'clickup_id': '86et33e6u', 'task_name': 'Find houses to move with Tony', 'due_date': 1758574800.0, 'date_done': None, 'points': 10}
+{'clickup_id': '86et037aw', 'task_name': 'create system to syncronize kbank pics', 'due_date': 1743282000.0, 'date_done': 1743458394.7, 'points': 10}
+{'clickup_id': '86erytf8j', 'task_name': 'calculate needed earnings', 'due_date': 1743195600.0, 'date_done': 1743272416.081, 'points': 10}
+{'clickup_id': '86ery8mma', 'task_name': 'averiguar cuenta espana', 'due_date': 1742763600.0, 'date_done': 1742888399.679, 'points': 10}
+{'clickup_id': '86erxx9tn', 'task_name': 'yok', 'due_date': 1746997200.0, 'date_done': 1747124941.767, 'points': 10}
+{'clickup_id': '86erv3nqt', 'task_name': 'Immigration notification', 'due_date': 1749589200.0, 'date_done': 1749620391.701, 'points': 10}
+{'clickup_id': '86ertdpgh', 'task_name': 'Anual vaccine Tony', 'due_date': 1757451600.0, 'date_done': 1757486694.468, 'points': 10}
+{'clickup_id': '86ertcpbj', 'task_name': 'update money proyection and sell btc', 'due_date': 1741554000.0, 'date_done': 1742060285.448, 'points': 10}
+{'clickup_id': '86erry1u6', 'task_name': 'Renew or cancel youtube course', 'due_date': 1743800400.0, 'date_done': 1743668927.833, 'points': 10}
+{'clickup_id': '86err5zkr', 'task_name': 'Immigration notification', 'due_date': 1741899600.0, 'date_done': 1741935161.849, 'points': 10}
+{'clickup_id': '86err5y66', 'task_name': 'Pay kitesurf', 'due_date': 1743714000.0, 'date_done': 1741271810.778, 'points': 10}
+{'clickup_id': '86erq12av', 'task_name': 'separate names brandon', 'due_date': 1741035600.0, 'date_done': 1741113488.928, 'points': 10}
+{'clickup_id': '86erpt347', 'task_name': 'Oum photos', 'due_date': None, 'date_done': 1748984044.238, 'points': 10}
+{'clickup_id': '86erphn1j', 'task_name': 'Bring Tony to doctor', 'due_date': 1741554000.0, 'date_done': 1741609828.594, 'points': 10}
+{'clickup_id': '86ermvqrv', 'task_name': 'clean fan', 'due_date': 1740862800.0, 'date_done': 1740900680.5, 'points': 10}
+{'clickup_id': '86ermvb71', 'task_name': 'fix automations clickup', 'due_date': None, 'date_done': 1740860016.572, 'points': 10}
+{'clickup_id': '86erfyhqg', 'task_name': 'oum task', 'due_date': None, 'date_done': 1739089413.69, 'points': 10}
+{'clickup_id': '86erfnrju', 'task_name': 'Prepare gym routine', 'due_date': None, 'date_done': 1739112970.075, 'points': 10}
+{'clickup_id': '86erez4xr', 'task_name': 'fix motorbike wheels', 'due_date': 1758056400.0, 'date_done': 1758040146.982, 'points': 10}
+{'clickup_id': '86erez454', 'task_name': 'Sell and donate Tony stuff', 'due_date': None, 'date_done': 1738717440.554, 'points': 10}
+{'clickup_id': '86eu1tu5y', 'task_name': 'last payment football coach :)', 'due_date': 1751490000.0, 'date_done': 1751842112.779, 'points': 10}
+{'clickup_id': '86etyjpyf', 'task_name': 'post tony fc en mi facebook', 'due_date': 1750798800.0, 'date_done': 1750879091.437, 'points': 10}
+{'clickup_id': '86etk7qku', 'task_name': 'order coach shirt', 'due_date': 1750885200.0, 'date_done': 1749959687.722, 'points': 10}
+{'clickup_id': '86etk7qk3', 'task_name': 'order shirts', 'due_date': 1748293200.0, 'date_done': 1748374306.539, 'points': 10}
+{'clickup_id': '86etjangp', 'task_name': 'watch pending class 3/3', 'due_date': 1747861200.0, 'date_done': 1748112060.504, 'points': 10}
+{'clickup_id': '86etheh20', 'task_name': 'proyecto curso entrenador', 'due_date': 1753304400.0, 'date_done': 1753169673.832, 'points': 10}
+{'clickup_id': '86etf67ae', 'task_name': 'send text to coach group', 'due_date': 1747602000.0, 'date_done': 1747670691.077, 'points': 10}
+{'clickup_id': '86etdnme1', 'task_name': 'watch pending class 2/2', 'due_date': 1747947600.0, 'date_done': 1747906658.03, 'points': 10}
+{'clickup_id': '86etdnmde', 'task_name': 'watch pending class 1/2', 'due_date': 1747342800.0, 'date_done': 1747465154.775, 'points': 10}
+{'clickup_id': '86etbptut', 'task_name': 'send message about competition to group', 'due_date': 1746306000.0, 'date_done': 1746346531.194, 'points': 10}
+{'clickup_id': '86ery084z', 'task_name': 'Corregir el pdf', 'due_date': 1742763600.0, 'date_done': 1742763770.659, 'points': 10}
+{'clickup_id': '86erw31z3', 'task_name': 'choose font and reply shirt', 'due_date': 1742245200.0, 'date_done': 1742399466.361, 'points': 10}
+{'clickup_id': '86eruaztc', 'task_name': 'Reply shirt', 'due_date': 1742072400.0, 'date_done': 1742105324.351, 'points': 10}
+{'clickup_id': '86ertc82y', 'task_name': 'cancel adobe acrobat suscription', 'due_date': 1742072400.0, 'date_done': 1742047878.878, 'points': 10}
+{'clickup_id': '86errwwe2', 'task_name': 'Reply shirt design', 'due_date': 1741640400.0, 'date_done': 1741546247.3, 'points': 10}
+{'clickup_id': '86erpne8m', 'task_name': 'Cancel adobe illustrator subscription', 'due_date': 1741381200.0, 'date_done': 1741445997.436, 'points': 10}
+{'clickup_id': '86erphnyw', 'task_name': 'check payments', 'due_date': 1740862800.0, 'date_done': 1740901954.629, 'points': 10}
+{'clickup_id': '86ernzget', 'task_name': 'test moving to 20.15', 'due_date': None, 'date_done': 1744789793.897, 'points': 10}
+{'clickup_id': '86ernhpja', 'task_name': 'choose players and confirm for friday', 'due_date': None, 'date_done': 1740663996.055, 'points': 10}
+{'clickup_id': '86ermvp1g', 'task_name': 'hire design shirts', 'due_date': 1741122000.0, 'date_done': 1741275769.94, 'points': 10}
+{'clickup_id': '86ermuqm5', 'task_name': 'call and change for 60 minutes', 'due_date': 1740517200.0, 'date_done': 1740539135.202, 'points': 10}
+{'clickup_id': '86ermjjnn', 'task_name': 'do 5 exercises', 'due_date': 1740517200.0, 'date_done': 1740916389.716, 'points': 10}
+{'clickup_id': '86ermjjnc', 'task_name': 'prepare wednesday training', 'due_date': 1740517200.0, 'date_done': 1740564770.479, 'points': 10}
+{'clickup_id': '86erkwvb8', 'task_name': 'check payments', 'due_date': None, 'date_done': 1740590854.477, 'points': 10}
+{'clickup_id': '86erf356k', 'task_name': 'pay coach', 'due_date': None, 'date_done': 1739011725.181, 'points': 10}
+{'clickup_id': '86erf3291', 'task_name': 'buy long pants', 'due_date': None, 'date_done': 1738742944.89, 'points': 10}
+{'clickup_id': '86erf0fud', 'task_name': 'call pitch and change to 90 minutes', 'due_date': None, 'date_done': 1738736404.436, 'points': 10}
+{'clickup_id': '86erez4wf', 'task_name': 'design shirt', 'due_date': 1740862800.0, 'date_done': 1739164087.115, 'points': 10}
+{'clickup_id': '86erez4w3', 'task_name': 'choose shirts supplier', 'due_date': None, 'date_done': 1739114735.824, 'points': 10}
+{'clickup_id': '86erez4vu', 'task_name': 'hire shirts', 'due_date': 1749934800.0, 'date_done': 1748984058.413, 'points': 10}
+{'clickup_id': '86erez420', 'task_name': 'Prepare next training', 'due_date': None, 'date_done': 1738717391.882, 'points': 10}
+HP is 100
+XP is 0
+Level is 0
+cannot write mode RGBA as JPEG
+{'clickup_id': '86eux8fw8', 'task_name': 'Anual blood test Tony', 'due_date': 1758834000.0, 'date_done': 1758206005.438, 'points': 10}
+{'clickup_id': '86eux8fv9', 'task_name': 'Anual blood test Tony', 'due_date': None, 'date_done': 1758205892.371, 'points': 10}
+{'clickup_id': '86euwfrmb', 'task_name': 'organize shirt', 'due_date': 1758056400.0, 'date_done': 1758094973.138, 'points': 10}
+{'clickup_id': '86euwf6j0', 'task_name': 'Put list', 'due_date': 1758574800.0, 'date_done': None, 'points': 5}
+{'clickup_id': '86euuug6p', 'task_name': 'prepare kids training 2', 'due_date': 1758229200.0, 'date_done': 1758439392.622, 'points': 10}
+{'clickup_id': '86euu10je', 'task_name': 'prepare kids training 1', 'due_date': 1758056400.0, 'date_done': 1758376467.715, 'points': 10}
+{'clickup_id': '86eutnfze', 'task_name': 'boost post', 'due_date': 1757365200.0, 'date_done': 1757391604.635, 'points': 10}
+{'clickup_id': '86eutnfp4', 'task_name': 'Put list', 'due_date': 1757970000.0, 'date_done': 1758180819.753, 'points': 10}
+{'clickup_id': '86eurjrnv', 'task_name': 'prepare kids training 2', 'due_date': 1757538000.0, 'date_done': 1757585483.494, 'points': 10}
+{'clickup_id': '86euqrxnc', 'task_name': 'prepare kids training 1', 'due_date': 1757451600.0, 'date_done': 1757462750.119, 'points': 10}
+{'clickup_id': '86euq9fxm', 'task_name': 'Put list', 'due_date': 1757365200.0, 'date_done': 1757385333.558, 'points': 10}
+{'clickup_id': '86eunv3n5', 'task_name': 'prepare kids training 2', 'due_date': 1757019600.0, 'date_done': 1757272755.179, 'points': 10}
+{'clickup_id': '86eun113u', 'task_name': 'prepare kids training 1', 'due_date': 1756846800.0, 'date_done': 1757011136.811, 'points': 10}
+{'clickup_id': '86eumj7wz', 'task_name': 'Put list', 'due_date': 1756760400.0, 'date_done': 1756842088.226, 'points': 10}
+{'clickup_id': '86eukaunv', 'task_name': 'prepare kids training 2', 'due_date': 1756414800.0, 'date_done': 1756568160.432, 'points': 10}
+{'clickup_id': '86eujmx0w', 'task_name': 'prepare kids training 1', 'due_date': 1756242000.0, 'date_done': 1756325459.634, 'points': 10}
+{'clickup_id': '86eujanc4', 'task_name': 'Put list', 'due_date': 1756155600.0, 'date_done': 1756214114.574, 'points': 10}
+{'clickup_id': '86eujanbt', 'task_name': 'Put list', 'due_date': 1755637200.0, 'date_done': 1755644429.253, 'points': 10}
+{'clickup_id': '86eugu1f7', 'task_name': 'prepare kids training 2', 'due_date': 1755810000.0, 'date_done': 1755972931.156, 'points': 10}
+{'clickup_id': '86eug0h9f', 'task_name': 'prepare kids training 1', 'due_date': 1755637200.0, 'date_done': 1755972930.065, 'points': 10}
+{'clickup_id': '86eue8h53', 'task_name': 'prepare kids training 2', 'due_date': 1755205200.0, 'date_done': 1755635621.15, 'points': 10}
+{'clickup_id': '86eudfwdn', 'task_name': 'prepare kids training 1', 'due_date': 1755032400.0, 'date_done': 1755411593.477, 'points': 10}
+{'clickup_id': '86eudfk6h', 'task_name': 'call schools', 'due_date': 1755550800.0, 'date_done': 1755635599.361, 'points': 10}
+{'clickup_id': '86eudfk6e', 'task_name': 'follow up schools on facebook', 'due_date': 1755464400.0, 'date_done': 1755635636.933, 'points': 10}
+{'clickup_id': '86eudegxk', 'task_name': 'put list and inform saturday no training', 'due_date': 1754427600.0, 'date_done': 1754438189.186, 'points': 10}
+{'clickup_id': '86eud4kef', 'task_name': 'select videos and share with tony academy', 'due_date': 1754341200.0, 'date_done': 1754409052.335, 'points': 10}
+{'clickup_id': '86eucd5yk', 'task_name': 'prepare emails contacts', 'due_date': 1754168400.0, 'date_done': 1754342990.439, 'points': 10}
+{'clickup_id': '86eucd5v6', 'task_name': 'send emails to schools with project', 'due_date': 1754254800.0, 'date_done': 1754429849.232, 'points': 10}
+{'clickup_id': '86eucb7h0', 'task_name': 'prepare kids training 2', 'due_date': 1754686800.0, 'date_done': 1754689342.216, 'points': 10}
+{'clickup_id': '86euc26qq', 'task_name': 'remove admin of not used fb', 'due_date': 1754082000.0, 'date_done': 1753990189.227, 'points': 10}
+{'clickup_id': '86eubqzmt', 'task_name': 'create proyect for schools', 'due_date': 1753995600.0, 'date_done': 1754087994.748, 'points': 10}
+{'clickup_id': '86eubqgzj', 'task_name': 'prepare kids training 1', 'due_date': 1754427600.0, 'date_done': 1754435081.019, 'points': 10}
+{'clickup_id': '86eub454g', 'task_name': 'post new video on social', 'due_date': 1758488400.0, 'date_done': None, 'points': 10}
+{'clickup_id': '86eub3z7g', 'task_name': 'download all coach videos', 'due_date': 1753650000.0, 'date_done': 1753895432.64, 'points': 10}
+{'clickup_id': '86eub2h9g', 'task_name': 'register tony fc in tournament', 'due_date': 1753909200.0, 'date_done': 1753915469.928, 'points': 10}
+{'clickup_id': '86eua3tbb', 'task_name': 'prepare kids training 2', 'due_date': 1753995600.0, 'date_done': 1754172741.445, 'points': 10}
+{'clickup_id': '86eu9bm63', 'task_name': 'prepare kids training 1', 'due_date': 1753822800.0, 'date_done': 1754138358.814, 'points': 10}
+{'clickup_id': '86eu8r4hx', 'task_name': 'buy extra equipment', 'due_date': 1753131600.0, 'date_done': 1753431921.116, 'points': 10}
+{'clickup_id': '86eu8r1v7', 'task_name': 'coach exam', 'due_date': 1753131600.0, 'date_done': 1753169667.116, 'points': 10}
+{'clickup_id': '86eu7dnx0', 'task_name': 'prepare kids training 2', 'due_date': 1753390800.0, 'date_done': 1753616437.471, 'points': 10}
+{'clickup_id': '86eu7864u', 'task_name': 'add cv to project', 'due_date': 1752872400.0, 'date_done': 1752904049.89, 'points': 10}
+{'clickup_id': '86eu7860p', 'task_name': 'remove white from logo background', 'due_date': 1752786000.0, 'date_done': 1752824713.311, 'points': 10}
+{'clickup_id': '86eu6h4ng', 'task_name': 'prepare kids training 1', 'due_date': 1753218000.0, 'date_done': 1753616438.528, 'points': 10}
+{'clickup_id': '86eu5x80v', 'task_name': 'create video tony academy', 'due_date': 1752440400.0, 'date_done': 1752634624.529, 'points': 10}
+{'clickup_id': '86eu5dzb8', 'task_name': 'check payments', 'due_date': 1752354000.0, 'date_done': 1752557648.575, 'points': 10}
+{'clickup_id': '86eu5da2n', 'task_name': 'marketing tony academy', 'due_date': 1752958800.0, 'date_done': 1753988292.976, 'points': 10}
+{'clickup_id': '86eu5d3qr', 'task_name': 'post pic benefits', 'due_date': 1752440400.0, 'date_done': 1752475802.179, 'points': 10}
+{'clickup_id': '86eu4t4n2', 'task_name': 'prepare kids training 2', 'due_date': 1752958800.0, 'date_done': 1753009990.151, 'points': 10}
+{'clickup_id': '86eu447me', 'task_name': 'prepare kids training 1', 'due_date': 1752613200.0, 'date_done': 1752904024.9, 'points': 10}
+{'clickup_id': '86eu3tvbx', 'task_name': 'open tiktok', 'due_date': 1752958800.0, 'date_done': 1753914821.814, 'points': 10}
+{'clickup_id': '86eu3tvbm', 'task_name': 'open ig', 'due_date': 1752958800.0, 'date_done': 1753914823.151, 'points': 10}
+{'clickup_id': '86eu3tvbc', 'task_name': 'post video on facebook', 'due_date': 1752008400.0, 'date_done': 1752098786.068, 'points': 10}
+{'clickup_id': '86eu3d1z1', 'task_name': 'create video for tony academy', 'due_date': 1751922000.0, 'date_done': 1751932828.624, 'points': 10}
+{'clickup_id': '86eu2z9f8', 'task_name': 'check payments of last weekend', 'due_date': 1751835600.0, 'date_done': 1751845234.53, 'points': 10}
+{'clickup_id': '86eu2yzxn', 'task_name': 'fix crypto', 'due_date': 1751749200.0, 'date_done': 1751832609.145, 'points': 10}
+{'clickup_id': '86eu2fjw2', 'task_name': 'prepare kids training 2', 'due_date': 1752181200.0, 'date_done': 1752395499.096, 'points': 10}
+{'clickup_id': '86eu2fjgg', 'task_name': 'prepare kids training 1', 'due_date': 1752008400.0, 'date_done': 1752362603.163, 'points': 10}
+{'clickup_id': '86etzg0p6', 'task_name': 'prepare kids training 1', 'due_date': 1751576400.0, 'date_done': 1751704821.318, 'points': 10}
+{'clickup_id': '86etzfur6', 'task_name': 'prepare kids training 2', 'due_date': 1751576400.0, 'date_done': 1751790736.887, 'points': 10}
+{'clickup_id': '86etyq1m1', 'task_name': 'pending class', 'due_date': 1750798800.0, 'date_done': 1750892782.124, 'points': 10}
+{'clickup_id': '86etx8105', 'task_name': 'confirm hours to pan', 'due_date': 1750626000.0, 'date_done': 1750667301.51, 'points': 10}
+{'clickup_id': '86etwp4pm', 'task_name': 'prepare kids training 2', 'due_date': 1750885200.0, 'date_done': 1751037650.441, 'points': 10}
+{'clickup_id': '86etwp4ev', 'task_name': 'prepare kids training 1', 'due_date': 1750885200.0, 'date_done': 1751139567.859, 'points': 10}
+{'clickup_id': '86etu71br', 'task_name': 'prepare kids training 2', 'due_date': 1750366800.0, 'date_done': 1750612403.552, 'points': 10}
+{'clickup_id': '86etu1272', 'task_name': 'prepare kids training 1', 'due_date': 1750366800.0, 'date_done': 1750612400.855, 'points': 10}
+{'clickup_id': '86eth61m4', 'task_name': 'post tony academy on fb groups', 'due_date': 1758488400.0, 'date_done': None, 'points': 10}
+{'clickup_id': '86euy337n', 'task_name': 'add buenos modales slide', 'due_date': 1758488400.0, 'date_done': None, 'points': 10}
+{'clickup_id': '86euwppe9', 'task_name': 'prepare spanish classes', 'due_date': 1758142800.0, 'date_done': 1758217311.134, 'points': 10}
+{'clickup_id': '86euv8wmx', 'task_name': 'Lamud 6 pm', 'due_date': 1758229200.0, 'date_done': 1758206020.972, 'points': 10}
+{'clickup_id': '86euuanza', 'task_name': 'Lamud 6 pm', 'due_date': 1758056400.0, 'date_done': 1758179905.155, 'points': 10}
+{'clickup_id': '86euu4fed', 'task_name': 'Gift 11 am', 'due_date': 1758056400.0, 'date_done': 1758085902.941, 'points': 10}
+{'clickup_id': '86eut4btu', 'task_name': 'arrange time with kwan', 'due_date': 1757278800.0, 'date_done': 1757392030.374, 'points': 10}
+{'clickup_id': '86eut4bj1', 'task_name': 'Japanese 2 pm', 'due_date': 1757451600.0, 'date_done': 1757556928.455, 'points': 10}
+{'clickup_id': '86eurjrp6', 'task_name': 'Lamud 6 pm', 'due_date': 1757624400.0, 'date_done': 1757750610.299, 'points': 10}
+{'clickup_id': '86eur8eum', 'task_name': 'prepare class b1', 'due_date': 1756933200.0, 'date_done': 1757002697.061, 'points': 10}
+{'clickup_id': '86euqragp', 'task_name': 'Gift 11 am', 'due_date': 1757278800.0, 'date_done': 1757324808.387, 'points': 10}
+{'clickup_id': '86euqraek', 'task_name': 'Lamud 6 pm', 'due_date': 1757451600.0, 'date_done': 1757556929.411, 'points': 10}
+{'clickup_id': '86euqjten', 'task_name': 'Gift 11 am', 'due_date': 1757451600.0, 'date_done': 1757486766.537, 'points': 10}
+{'clickup_id': '86euqbt7w', 'task_name': 'Gift 11 am', 'due_date': 1756846800.0, 'date_done': 1756885058.462, 'points': 10}
+{'clickup_id': '86eunv3nj', 'task_name': 'Lamud 6 pm', 'due_date': 1757019600.0, 'date_done': 1757122612.574, 'points': 10}
+{'clickup_id': '86eun10f8', 'task_name': 'Lamud 6 pm', 'due_date': 1756846800.0, 'date_done': 1756910876.362, 'points': 10}
+{'clickup_id': '86eun0xvb', 'task_name': 'check time for pan and kwan', 'due_date': 1756328400.0, 'date_done': 1756405734.142, 'points': 10}
+{'clickup_id': '86eumjdy0', 'task_name': 'check time for new student', 'due_date': 1756328400.0, 'date_done': 1756405726.4, 'points': 10}
+{'clickup_id': '86eum6fr5', 'task_name': 'Yonlada 2 pm', 'due_date': 1756674000.0, 'date_done': 1756752550.969, 'points': 10}
+{'clickup_id': '86eum6ffx', 'task_name': 'Pooh 6 pm', 'due_date': 1756674000.0, 'date_done': 1756752548.34, 'points': 10}
+{'clickup_id': '86euk6xuw', 'task_name': 'Lamud 6 pm', 'due_date': 1756414800.0, 'date_done': 1756489452.718, 'points': 10}
+{'clickup_id': '86euk00kw', 'task_name': 'Pan 4 pm', 'due_date': 1756328400.0, 'date_done': 1756405736.209, 'points': 10}
+{'clickup_id': '86eujk6b2', 'task_name': 'Lamud 6 pm', 'due_date': 1756242000.0, 'date_done': 1756325461.693, 'points': 10}
+{'clickup_id': '86eujap5y', 'task_name': 'Analyze spanish programs', 'due_date': 1756069200.0, 'date_done': 1756325464.838, 'points': 10}
+{'clickup_id': '86euj8p5v', 'task_name': 'Pan 4 pm', 'due_date': 1756155600.0, 'date_done': 1756214116.289, 'points': 10}
+{'clickup_id': '86euhuauq', 'task_name': 'Yonlada 2 pm', 'due_date': 1756069200.0, 'date_done': 1756150771.92, 'points': 10}
+{'clickup_id': '86euhuah8', 'task_name': 'Pooh 6 pm', 'due_date': 1756069200.0, 'date_done': 1756150762.576, 'points': 10}
+{'clickup_id': '86eugu1fb', 'task_name': 'Lamud 6 pm', 'due_date': 1755810000.0, 'date_done': 1755852076.391, 'points': 10}
+{'clickup_id': '86eugu1cy', 'task_name': 'Kwan 4 pm', 'due_date': 1755810000.0, 'date_done': 1755857299.276, 'points': 10}
+{'clickup_id': '86eugc7ju', 'task_name': 'Pan 4 pm', 'due_date': 1755723600.0, 'date_done': 1755804845.797, 'points': 10}
+{'clickup_id': '86eug0gjb', 'task_name': 'Lamud 6 pm', 'due_date': 1755637200.0, 'date_done': 1755693320.11, 'points': 10}
+{'clickup_id': '86eufjyuv', 'task_name': 'Pan 4 pm', 'due_date': 1755550800.0, 'date_done': 1755635624.935, 'points': 10}
+{'clickup_id': '86euf5ek0', 'task_name': 'Yonlada 2 pm', 'due_date': 1755464400.0, 'date_done': 1755635608.804, 'points': 10}
+{'clickup_id': '86euf5eca', 'task_name': 'Pooh 6 pm', 'due_date': 1755464400.0, 'date_done': 1755635607.336, 'points': 10}
+{'clickup_id': '86eue26n9', 'task_name': 'sonia 4 pm', 'due_date': 1754859600.0, 'date_done': 1754985535.62, 'points': 10}
+{'clickup_id': '86eudrn9q', 'task_name': 'Lamud 6 pm', 'due_date': 1755032400.0, 'date_done': 1755149980.718, 'points': 10}
+{'clickup_id': '86eudegqb', 'task_name': 'Pan 4 pm', 'due_date': 1754946000.0, 'date_done': 1755149971.354, 'points': 10}
+{'clickup_id': '86eud4bzu', 'task_name': 'Kwan 4 pm', 'due_date': 1755205200.0, 'date_done': 1755411594.955, 'points': 10}
+{'clickup_id': '86eud4bze', 'task_name': 'Lamud 6 pm', 'due_date': 1755205200.0, 'date_done': 1755411585.814, 'points': 10}
+{'clickup_id': '86eud4byp', 'task_name': 'Pan 4 pm', 'due_date': 1755118800.0, 'date_done': 1755233504.323, 'points': 10}
+{'clickup_id': '86eud4bx4', 'task_name': 'confirm time for sonia', 'due_date': 1754341200.0, 'date_done': 1754342088.006, 'points': 10}
+{'clickup_id': '86eud34dc', 'task_name': 'Yonlada 2 pm', 'due_date': 1754859600.0, 'date_done': 1754985534.586, 'points': 10}
+{'clickup_id': '86eud346k', 'task_name': 'Pooh 6 pm', 'due_date': 1754859600.0, 'date_done': 1754985536.994, 'points': 10}
+{'clickup_id': '86eucb7hc', 'task_name': 'Lamud 6 pm', 'due_date': 1754600400.0, 'date_done': 1754340914.493, 'points': 10}
+{'clickup_id': '86eubqg9w', 'task_name': 'Lamud 6 pm', 'due_date': 1754427600.0, 'date_done': 1754586363.592, 'points': 10}
+{'clickup_id': '86eub2zk9', 'task_name': 'Kwan 4 pm', 'due_date': 1754600400.0, 'date_done': 1754340917.843, 'points': 10}
+{'clickup_id': '86euazvf9', 'task_name': 'Pooh 6 pm', 'due_date': 1754254800.0, 'date_done': 1754340863.144, 'points': 10}
+{'clickup_id': '86eua131n', 'task_name': 'Lamud 6 pm', 'due_date': 1753995600.0, 'date_done': 1754077992.893, 'points': 10}
+{'clickup_id': '86eua0pwh', 'task_name': 'Kwan 4 pm', 'due_date': 1753995600.0, 'date_done': 1753725197.618, 'points': 10}
+{'clickup_id': '86eu9mnhn', 'task_name': 'Pan 4 pm', 'due_date': 1754514000.0, 'date_done': 1754340911.207, 'points': 10}
+{'clickup_id': '86eu9mna4', 'task_name': 'Pan 4 pm', 'due_date': 1754341200.0, 'date_done': 1754409049.624, 'points': 10}
+{'clickup_id': '86eu9mn5m', 'task_name': 'Pan 4 pm', 'due_date': 1753909200.0, 'date_done': 1753352100.757, 'points': 10}
+{'clickup_id': '86eu9bkgm', 'task_name': 'Lamud 6 pm', 'due_date': 1753822800.0, 'date_done': 1753895469.286, 'points': 10}
+{'clickup_id': '86eu8wjrp', 'task_name': 'Pan 4 pm', 'due_date': 1753736400.0, 'date_done': 1753352076.683, 'points': 10}
+{'clickup_id': '86eu8dzjz', 'task_name': 'Pooh 6 pm', 'due_date': 1753650000.0, 'date_done': 1753699147.831, 'points': 10}
+{'clickup_id': '86eu8bwfn', 'task_name': 'Yonlada 2 pm', 'due_date': 1754254800.0, 'date_done': 1754340861.818, 'points': 10}
+{'clickup_id': '86eu8bw5n', 'task_name': 'Yonlada 2 pm', 'due_date': 1753650000.0, 'date_done': 1753094437.616, 'points': 10}
+{'clickup_id': '86eu7dnxf', 'task_name': 'Lamud 6 pm', 'due_date': 1753390800.0, 'date_done': 1753439811.916, 'points': 10}
+{'clickup_id': '86eu7dnv2', 'task_name': 'Kwan 4 pm', 'due_date': 1753390800.0, 'date_done': 1753438165.144, 'points': 10}
+{'clickup_id': '86eu787e0', 'task_name': 'fiaw 4 pm', 'due_date': 1753045200.0, 'date_done': 1753094419.858, 'points': 10}
+{'clickup_id': '86eu6w73r', 'task_name': 'Pan 4 pm', 'due_date': 1753304400.0, 'date_done': 1753352059.949, 'points': 10}
+{'clickup_id': '86eu6h40n', 'task_name': 'Lamud 6 pm', 'due_date': 1753218000.0, 'date_done': 1753352053.406, 'points': 10}
+{'clickup_id': '86eu64h8x', 'task_name': 'Pan 4 pm', 'due_date': 1753131600.0, 'date_done': 1753188968.248, 'points': 10}
+{'clickup_id': '86eu60b0v', 'task_name': 'Fiaw 4 pm', 'due_date': 1752613200.0, 'date_done': 1752719877.707, 'points': 10}
+{'clickup_id': '86eu5x32r', 'task_name': 'reply Siriporn', 'due_date': 1752440400.0, 'date_done': 1752557192.613, 'points': 10}
+{'clickup_id': '86eu5n9rv', 'task_name': 'Yonlada 2 pm', 'due_date': 1753045200.0, 'date_done': 1753094419.14, 'points': 10}
+{'clickup_id': '86eu5d50t', 'task_name': 'prepare spanish class', 'due_date': 1752613200.0, 'date_done': 1752937296.554, 'points': 10}
+{'clickup_id': '86eu5d4me', 'task_name': 'check expiring times', 'due_date': 1752440400.0, 'date_done': 1752475803.725, 'points': 10}
+{'clickup_id': '86eu5d1y7', 'task_name': 'find time slot for navy', 'due_date': 1752440400.0, 'date_done': 1752472889.909, 'points': 10}
+{'clickup_id': '86eu5cxfg', 'task_name': 'Pooh 6 pm', 'due_date': 1753045200.0, 'date_done': 1753099798.315, 'points': 10}
+{'clickup_id': '86eu4w960', 'task_name': 'send application to fiaw', 'due_date': 1752267600.0, 'date_done': 1752471827.076, 'points': 10}
+{'clickup_id': '86eu4pjwz', 'task_name': 'Kwan 4 pm', 'due_date': 1752786000.0, 'date_done': 1752904026.11, 'points': 10}
+{'clickup_id': '86eu4jdr8', 'task_name': 'Lamud 6 pm', 'due_date': 1752786000.0, 'date_done': 1752904027.344, 'points': 10}
+{'clickup_id': '86eu4e4a5', 'task_name': 'Pan 4 pm', 'due_date': 1752699600.0, 'date_done': 1752751615.76, 'points': 10}
+{'clickup_id': '86eu4bbum', 'task_name': 'group class 1 pm', 'due_date': 1752267600.0, 'date_done': 1752362600.272, 'points': 10}
+{'clickup_id': '86eu45r91', 'task_name': 'schedule 1st class with navy and fiaw', 'due_date': 1752094800.0, 'date_done': 1752135995.441, 'points': 10}
+{'clickup_id': '86eu45r8t', 'task_name': 'record classes for fiaw and navy (2, 3, 4)', 'due_date': 1752094800.0, 'date_done': 1752556687.247, 'points': 10}
+{'clickup_id': '86eu45jmq', 'task_name': 'send 3rd class to lamud', 'due_date': 1752094800.0, 'date_done': 1752137325.536, 'points': 10}
+{'clickup_id': '86eu4472d', 'task_name': 'Lamud 6 pm', 'due_date': 1752613200.0, 'date_done': 1752719878.949, 'points': 10}
+{'clickup_id': '86eu3rqqn', 'task_name': 'Pan 4 pm', 'due_date': 1752526800.0, 'date_done': 1752627235.397, 'points': 10}
+{'clickup_id': '86eu3btq4', 'task_name': 'Yonlada 2 pm', 'due_date': 1752440400.0, 'date_done': 1752556681.471, 'points': 10}
+{'clickup_id': '86eu3bthe', 'task_name': 'Pooh 6 pm', 'due_date': 1752440400.0, 'date_done': 1752471302.948, 'points': 10}
+{'clickup_id': '86eu307kc', 'task_name': 'test class spanish 5.30 pm', 'due_date': 1751922000.0, 'date_done': 1751999032.784, 'points': 10}
+{'clickup_id': '86eu2fk5t', 'task_name': 'Lamud 6 pm', 'due_date': 1752181200.0, 'date_done': 1752204323.582, 'points': 10}
+{'clickup_id': '86eu2fjmc', 'task_name': 'Kwan 4 pm', 'due_date': 1752181200.0, 'date_done': 1752228913.457, 'points': 10}
+{'clickup_id': '86eu28hun', 'task_name': 'prepare 2nd class spanish', 'due_date': 1752181200.0, 'date_done': 1752224139.297, 'points': 10}
+{'clickup_id': '86eu28huf', 'task_name': 'prepare 1st class spanish', 'due_date': 1752181200.0, 'date_done': 1752204329.773, 'points': 10}
+{'clickup_id': '86eu256kt', 'task_name': 'Pan 4 pm', 'due_date': 1752094800.0, 'date_done': 1752154599.157, 'points': 10}
+{'clickup_id': '86eu1q13v', 'task_name': 'Lamud 6 pm', 'due_date': 1752008400.0, 'date_done': 1752098780.211, 'points': 10}
+{'clickup_id': '86eu13b4m', 'task_name': 'Pan 4 pm', 'due_date': 1751922000.0, 'date_done': 1751999030.835, 'points': 10}
+{'clickup_id': '86eu0hrhr', 'task_name': 'Yonlada 2 pm', 'due_date': 1751835600.0, 'date_done': 1751914291.899, 'points': 10}
+{'clickup_id': '86eu0hrhh', 'task_name': 'Pooh 6 pm', 'due_date': 1751835600.0, 'date_done': 1751914292.368, 'points': 10}
+{'clickup_id': '86etu0dyk', 'task_name': 'prepare kids training 2', 'due_date': 1749848400.0, 'date_done': 1749959774.732, 'points': 10}
+{'clickup_id': '86ettzp5a', 'task_name': 'prepare kids training 1', 'due_date': 1749762000.0, 'date_done': 1749802449.673, 'points': 10}
+{'clickup_id': '86etta8qu', 'task_name': 'return shirt', 'due_date': 1749762000.0, 'date_done': 1749771409.522, 'points': 10}
+{'clickup_id': '86etrqaa8', 'task_name': 'post video on tony academy', 'due_date': 1749502800.0, 'date_done': 1749601848.654, 'points': 10}
+{'clickup_id': '86etr67e5', 'task_name': 'stamp logo on shirt', 'due_date': 1749502800.0, 'date_done': 1749638445.87, 'points': 10}
+{'clickup_id': '86etr67dn', 'task_name': 'buy bag for balls', 'due_date': 1749330000.0, 'date_done': 1749386423.815, 'points': 10}
+{'clickup_id': '86etr67dh', 'task_name': 'buy extra balls?', 'due_date': 1749330000.0, 'date_done': 1749388183.8, 'points': 10}
+{'clickup_id': '86etqzrg5', 'task_name': 'Nattan 1 pm', 'due_date': 1749934800.0, 'date_done': 1749957362.883, 'points': 10}
+{'clickup_id': '86etqx18j', 'task_name': 'prepare 1st class spanish', 'due_date': 1749762000.0, 'date_done': 1748716435.786, 'points': 10}
+{'clickup_id': '86etqx17w', 'task_name': 'prepare 1st class spanish', 'due_date': 1749157200.0, 'date_done': 1748716435.786, 'points': 10}
+{'clickup_id': '86etqmwwa', 'task_name': 'prepare training kids', 'due_date': 1749157200.0, 'date_done': 1749229209.483, 'points': 10}
+{'clickup_id': '86etpxdrx', 'task_name': 'buy more balls', 'due_date': 1748984400.0, 'date_done': 1749066395.364, 'points': 10}
+{'clickup_id': '86etpvtn5', 'task_name': 'invite other parents to the group', 'due_date': 1748984400.0, 'date_done': 1748995402.871, 'points': 10}
+{'clickup_id': '86etpvtmu', 'task_name': 'send app', 'due_date': 1748984400.0, 'date_done': 1748991700.491, 'points': 10}
+{'clickup_id': '86etpeqmu', 'task_name': 'book pitch saturday', 'due_date': 1748898000.0, 'date_done': 1748967435.746, 'points': 10}
+{'clickup_id': '86etpej76', 'task_name': 'Pooh 6 pm', 'due_date': 1749416400.0, 'date_done': 1748876436.147, 'points': 10}
+{'clickup_id': '86etpej5j', 'task_name': 'Yonlada 2 pm', 'due_date': 1749416400.0, 'date_done': 1748876433.082, 'points': 10}
+{'clickup_id': '86etp497h', 'task_name': 'Nattan 2 pm', 'due_date': 1749330000.0, 'date_done': 1749374340.851, 'points': 10}
+{'clickup_id': '86etp48xj', 'task_name': 'Kwan 4 pm', 'due_date': 1749502800.0, 'date_done': 1749550283.394, 'points': 10}
+{'clickup_id': '86etp48x4', 'task_name': 'Kwan 4 pm', 'due_date': 1749157200.0, 'date_done': 1749219711.507, 'points': 10}
+{'clickup_id': '86etp48w2', 'task_name': 'Kwan 4 pm', 'due_date': 1749070800.0, 'date_done': 1749117139.991, 'points': 10}
+{'clickup_id': '86etp48u6', 'task_name': 'Kwan 4 pm', 'due_date': 1748984400.0, 'date_done': 1749031535.52, 'points': 10}
+{'clickup_id': '86etp48nj', 'task_name': 'Kwan 4 pm', 'due_date': 1748898000.0, 'date_done': 1748967430.053, 'points': 10}
+{'clickup_id': '86etp48mc', 'task_name': 'Kwan 4 pm', 'due_date': 1748811600.0, 'date_done': 1748876434.22, 'points': 10}
+{'clickup_id': '86etp48ef', 'task_name': 'Yonlada 2 pm', 'due_date': 1748811600.0, 'date_done': 1748876433.082, 'points': 10}
+{'clickup_id': '86etp48by', 'task_name': 'Pooh 6 pm', 'due_date': 1748811600.0, 'date_done': 1748876436.147, 'points': 10}
+{'clickup_id': '86etnuqc5', 'task_name': 'prepare 2nd class spanish', 'due_date': 1749157200.0, 'date_done': 1748716435.786, 'points': 10}
+{'clickup_id': '86etnuq01', 'task_name': 'buy balls for academy', 'due_date': 1748725200.0, 'date_done': 1748758564.97, 'points': 10}
+{'clickup_id': '86etnaw5t', 'task_name': 'prepare class 6', 'due_date': 1748552400.0, 'date_done': 1748757369.221, 'points': 10}
+{'clickup_id': '86etnaw47', 'task_name': 'prepare class 5', 'due_date': 1748552400.0, 'date_done': 1748739584.951, 'points': 10}
+{'clickup_id': '86etkz4e1', 'task_name': 'create questions for spanish system', 'due_date': 1748552400.0, 'date_done': 1748716427.39, 'points': 10}
+{'clickup_id': '86etkwqm0', 'task_name': 'buy domain TeacherOh.com', 'due_date': 1748379600.0, 'date_done': 1748388158.478, 'points': 10}
+{'clickup_id': '86etkwqhy', 'task_name': 'deploy spanish system', 'due_date': 1748379600.0, 'date_done': 1748474213.361, 'points': 10}
+{'clickup_id': '86etkgwcb', 'task_name': 'send files for printing logo', 'due_date': 1748206800.0, 'date_done': 1748193913.47, 'points': 10}
+{'clickup_id': '86etk979c', 'task_name': 'create system for spanish practice locally', 'due_date': 1748206800.0, 'date_done': 1748292839.9, 'points': 10}
+{'clickup_id': '86etjtv91', 'task_name': 'prepare class spanish', 'due_date': 1748725200.0, 'date_done': 1748716435.786, 'points': 10}
+{'clickup_id': '86ethq399', 'task_name': 'prepare class spanish 4', 'due_date': 1747947600.0, 'date_done': 1748081627.189, 'points': 10}
+{'clickup_id': '86etgt6j2', 'task_name': 'prepare class spanish', 'due_date': 1748120400.0, 'date_done': 1747946066.24, 'points': 10}
+{'clickup_id': '86etgnqt3', 'task_name': 'prepare class spanish 3', 'due_date': 1747602000.0, 'date_done': 1747732508.876, 'points': 10}
+{'clickup_id': '86etfvbtu', 'task_name': 'create new cover for spanish page', 'due_date': 1748725200.0, 'date_done': 1748794169.568, 'points': 10}
+{'clickup_id': '86eteybdr', 'task_name': 'boost spanish ads', 'due_date': 1747170000.0, 'date_done': 1747206775.798, 'points': 10}
+{'clickup_id': '86etc0rv7', 'task_name': 'prepare schedule', 'due_date': 1746392400.0, 'date_done': 1746445933.407, 'points': 10}
+{'clickup_id': '86etc0rtz', 'task_name': 'boost chess', 'due_date': 1746392400.0, 'date_done': 1746445929.704, 'points': 10}
+{'clickup_id': '86etc0rrj', 'task_name': 'create account for chess', 'due_date': 1746306000.0, 'date_done': 1746439069.005, 'points': 10}
+{'clickup_id': '86etc0rpr', 'task_name': 'create account for football', 'due_date': 1746738000.0, 'date_done': 1746794988.693, 'points': 10}
+{'clickup_id': '86etbq1gp', 'task_name': 'create video for spanish', 'due_date': 1747688400.0, 'date_done': 1747943487.585, 'points': 10}
+{'clickup_id': '86etbq1fx', 'task_name': 'prepare outline of program for spanish', 'due_date': 1746392400.0, 'date_done': 1746958809.411, 'points': 10}
+{'clickup_id': '86etbpgxg', 'task_name': 'fix ais', 'due_date': 1747083600.0, 'date_done': 1747155786.614, 'points': 10}
+{'clickup_id': '86etbe7au', 'task_name': 'set automatic replies for spanish page', 'due_date': 1746219600.0, 'date_done': 1746461443.625, 'points': 10}
+{'clickup_id': '86etbe6er', 'task_name': 'boost ads for football', 'due_date': 1747170000.0, 'date_done': 1747491915.174, 'points': 10}
+{'clickup_id': '86etbe6e5', 'task_name': 'boost ads for chess', 'due_date': 1746219600.0, 'date_done': 1746445936.908, 'points': 10}
+{'clickup_id': '86etbe6d8', 'task_name': 'prepare program for spanish group classes', 'due_date': 1746478800.0, 'date_done': 1746897555.981, 'points': 10}
+{'clickup_id': '86etbe6c9', 'task_name': 'research coworking spaces for chess', 'due_date': 1746219600.0, 'date_done': 1746342219.638, 'points': 10}
+{'clickup_id': '86etaqgv8', 'task_name': 'cancel canva free trial', 'due_date': 1748466000.0, 'date_done': 1748453850.616, 'points': 10}
+{'clickup_id': '86etac0n6', 'task_name': 'prepare cv for contacting schools', 'due_date': 1745960400.0, 'date_done': 1746260164.659, 'points': 10}
+{'clickup_id': '86etac0c3', 'task_name': 'boost ads', 'due_date': 1745960400.0, 'date_done': 1746260171.96, 'points': 10}
+{'clickup_id': '86etac00u', 'task_name': 'create videos for chess', 'due_date': 1746306000.0, 'date_done': 1746348102.812, 'points': 10}
+{'clickup_id': '86etabzvx', 'task_name': 'post for 3 activities', 'due_date': 1745960400.0, 'date_done': 1746445940.097, 'points': 10}
+{'clickup_id': '86etabzn8', 'task_name': 'create accounts for 3 activities', 'due_date': 1746219600.0, 'date_done': 1746439053.037, 'points': 10}
+{'clickup_id': '86etabydh', 'task_name': 'send emails to schools about chess', 'due_date': 1745960400.0, 'date_done': 1746260163.469, 'points': 10}
+{'clickup_id': '86etaby70', 'task_name': 'contact ad about teaching', 'due_date': 1746478800.0, 'date_done': 1746958814.64, 'points': 10}
+{'clickup_id': '86et9k6hk', 'task_name': 'record video', 'due_date': 1745787600.0, 'date_done': 1745830052.268, 'points': 10}
+{'clickup_id': '86et9gn1q', 'task_name': 'research about paying ads', 'due_date': 1745787600.0, 'date_done': 1746260171.341, 'points': 10}
+{'clickup_id': '86et9gmzg', 'task_name': 'post in freelance websites', 'due_date': 1745787600.0, 'date_done': 1745830054.018, 'points': 10}
+{'clickup_id': '86et9gmv9', 'task_name': 'create account in freelance websites', 'due_date': 1745787600.0, 'date_done': 1745821209.61, 'points': 10}
+{'clickup_id': '86et9gmrf', 'task_name': 'create bio for mc jobs', 'due_date': 1745787600.0, 'date_done': 1745821204.318, 'points': 10}
+{'clickup_id': '86euudvtd', 'task_name': 'fix motorbike', 'due_date': 1757883600.0, 'date_done': 1757750617.268, 'points': 10}
+{'clickup_id': '86euudvm9', 'task_name': 'restart gym', 'due_date': 1757883600.0, 'date_done': 1758193497.952, 'points': 10}
+{'clickup_id': '86eutqf2p', 'task_name': 'Lawyer', 'due_date': 1757365200.0, 'date_done': 1757457473.606, 'points': 10}
+{'clickup_id': '86eunwjj9', 'task_name': 'immigration', 'due_date': 1757278800.0, 'date_done': 1757324805.665, 'points': 10}
+{'clickup_id': '86eujaqt3', 'task_name': 'fix tony condo', 'due_date': 1755982800.0, 'date_done': 1756405740.594, 'points': 10}
+{'clickup_id': '86eujaj18', 'task_name': 'sell crypto', 'due_date': 1756674000.0, 'date_done': 1757002692.391, 'points': 10}
+{'clickup_id': '86eu7zh23', 'task_name': 'contact lawyers', 'due_date': 1753045200.0, 'date_done': 1753109764.222, 'points': 10}
+{'clickup_id': '86eu7zh0r', 'task_name': 'prepare lawer stuff', 'due_date': 1752958800.0, 'date_done': 1753014912.674, 'points': 10}
+{'clickup_id': '86eu6mz7m', 'task_name': 'fix kplus', 'due_date': 1752699600.0, 'date_done': 1752751621.711, 'points': 10}
+{'clickup_id': '86eu5da7r', 'task_name': 'fix laptop', 'due_date': 1753650000.0, 'date_done': 1753432382.43, 'points': 10}
+{'clickup_id': '86eu2yzy7', 'task_name': 'sell crypto', 'due_date': 1751749200.0, 'date_done': 1751832610.38, 'points': 10}
+{'clickup_id': '86eu1tu79', 'task_name': 'buy pills', 'due_date': 1751490000.0, 'date_done': 1751603958.281, 'points': 10}
+{'clickup_id': '86etyyphh', 'task_name': 'clean tony water', 'due_date': 1750885200.0, 'date_done': 1751037659.0, 'points': 10}
+{'clickup_id': '86etyqa9d', 'task_name': 'holidays with Nin', 'due_date': None, 'date_done': 1755643383.651, 'points': 10}
+{'clickup_id': '86etyqa94', 'task_name': 'holidays with Nin', 'due_date': 1756069200.0, 'date_done': 1755643354.845, 'points': 10}
+{'clickup_id': '86etw7q7p', 'task_name': 'update accounting', 'due_date': 1750280400.0, 'date_done': 1750613150.48, 'points': 10}
+{'clickup_id': '86etvkfkr', 'task_name': 'Yok 10:20 am', 'due_date': 1751230800.0, 'date_done': 1751316152.737, 'points': 10}
+{'clickup_id': '86etufzfd', 'task_name': 'take tony to doctor', 'due_date': 1750885200.0, 'date_done': 1750951221.95, 'points': 10}
+{'clickup_id': '86etubjkf', 'task_name': 'write letter to muengman', 'due_date': 1749762000.0, 'date_done': 1749971940.674, 'points': 10}
+{'clickup_id': '86ettaghk', 'task_name': 'send oum shirt', 'due_date': 1749762000.0, 'date_done': 1749971938.995, 'points': 10}
+{'clickup_id': '86ettaggb', 'task_name': 'barber', 'due_date': 1749762000.0, 'date_done': 1749871932.767, 'points': 10}
+{'clickup_id': '86etqmucf', 'task_name': 'gym routine (add cardio and focus on chest)', 'due_date': 1749330000.0, 'date_done': 1749409922.738, 'points': 10}
+{'clickup_id': '86ethegwq', 'task_name': 'pills', 'due_date': 1747688400.0, 'date_done': 1747758131.049, 'points': 10}
+{'clickup_id': '86et73f5m', 'task_name': 'clean tony house', 'due_date': 1746219600.0, 'date_done': 1746344845.439, 'points': 10}
+{'clickup_id': '86et6h4p0', 'task_name': 'barber', 'due_date': 1745269200.0, 'date_done': 1745397401.989, 'points': 10}
+{'clickup_id': '86et33e6u', 'task_name': 'Find houses to move with Tony', 'due_date': 1758574800.0, 'date_done': None, 'points': 10}
+{'clickup_id': '86et037aw', 'task_name': 'create system to syncronize kbank pics', 'due_date': 1743282000.0, 'date_done': 1743458394.7, 'points': 10}
+{'clickup_id': '86erytf8j', 'task_name': 'calculate needed earnings', 'due_date': 1743195600.0, 'date_done': 1743272416.081, 'points': 10}
+{'clickup_id': '86ery8mma', 'task_name': 'averiguar cuenta espana', 'due_date': 1742763600.0, 'date_done': 1742888399.679, 'points': 10}
+{'clickup_id': '86erxx9tn', 'task_name': 'yok', 'due_date': 1746997200.0, 'date_done': 1747124941.767, 'points': 10}
+{'clickup_id': '86erv3nqt', 'task_name': 'Immigration notification', 'due_date': 1749589200.0, 'date_done': 1749620391.701, 'points': 10}
+{'clickup_id': '86ertdpgh', 'task_name': 'Anual vaccine Tony', 'due_date': 1757451600.0, 'date_done': 1757486694.468, 'points': 10}
+{'clickup_id': '86ertcpbj', 'task_name': 'update money proyection and sell btc', 'due_date': 1741554000.0, 'date_done': 1742060285.448, 'points': 10}
+{'clickup_id': '86erry1u6', 'task_name': 'Renew or cancel youtube course', 'due_date': 1743800400.0, 'date_done': 1743668927.833, 'points': 10}
+{'clickup_id': '86err5zkr', 'task_name': 'Immigration notification', 'due_date': 1741899600.0, 'date_done': 1741935161.849, 'points': 10}
+{'clickup_id': '86err5y66', 'task_name': 'Pay kitesurf', 'due_date': 1743714000.0, 'date_done': 1741271810.778, 'points': 10}
+{'clickup_id': '86erq12av', 'task_name': 'separate names brandon', 'due_date': 1741035600.0, 'date_done': 1741113488.928, 'points': 10}
+{'clickup_id': '86erpt347', 'task_name': 'Oum photos', 'due_date': None, 'date_done': 1748984044.238, 'points': 10}
+{'clickup_id': '86erphn1j', 'task_name': 'Bring Tony to doctor', 'due_date': 1741554000.0, 'date_done': 1741609828.594, 'points': 10}
+{'clickup_id': '86ermvqrv', 'task_name': 'clean fan', 'due_date': 1740862800.0, 'date_done': 1740900680.5, 'points': 10}
+{'clickup_id': '86ermvb71', 'task_name': 'fix automations clickup', 'due_date': None, 'date_done': 1740860016.572, 'points': 10}
+{'clickup_id': '86erfyhqg', 'task_name': 'oum task', 'due_date': None, 'date_done': 1739089413.69, 'points': 10}
+{'clickup_id': '86erfnrju', 'task_name': 'Prepare gym routine', 'due_date': None, 'date_done': 1739112970.075, 'points': 10}
+{'clickup_id': '86erez4xr', 'task_name': 'fix motorbike wheels', 'due_date': 1758056400.0, 'date_done': 1758040146.982, 'points': 10}
+{'clickup_id': '86erez454', 'task_name': 'Sell and donate Tony stuff', 'due_date': None, 'date_done': 1738717440.554, 'points': 10}
+{'clickup_id': '86eu1tu5y', 'task_name': 'last payment football coach :)', 'due_date': 1751490000.0, 'date_done': 1751842112.779, 'points': 10}
+{'clickup_id': '86etyjpyf', 'task_name': 'post tony fc en mi facebook', 'due_date': 1750798800.0, 'date_done': 1750879091.437, 'points': 10}
+{'clickup_id': '86etk7qku', 'task_name': 'order coach shirt', 'due_date': 1750885200.0, 'date_done': 1749959687.722, 'points': 10}
+{'clickup_id': '86etk7qk3', 'task_name': 'order shirts', 'due_date': 1748293200.0, 'date_done': 1748374306.539, 'points': 10}
+{'clickup_id': '86etjangp', 'task_name': 'watch pending class 3/3', 'due_date': 1747861200.0, 'date_done': 1748112060.504, 'points': 10}
+{'clickup_id': '86etheh20', 'task_name': 'proyecto curso entrenador', 'due_date': 1753304400.0, 'date_done': 1753169673.832, 'points': 10}
+{'clickup_id': '86etf67ae', 'task_name': 'send text to coach group', 'due_date': 1747602000.0, 'date_done': 1747670691.077, 'points': 10}
+{'clickup_id': '86etdnme1', 'task_name': 'watch pending class 2/2', 'due_date': 1747947600.0, 'date_done': 1747906658.03, 'points': 10}
+{'clickup_id': '86etdnmde', 'task_name': 'watch pending class 1/2', 'due_date': 1747342800.0, 'date_done': 1747465154.775, 'points': 10}
+{'clickup_id': '86etbptut', 'task_name': 'send message about competition to group', 'due_date': 1746306000.0, 'date_done': 1746346531.194, 'points': 10}
+{'clickup_id': '86ery084z', 'task_name': 'Corregir el pdf', 'due_date': 1742763600.0, 'date_done': 1742763770.659, 'points': 10}
+{'clickup_id': '86erw31z3', 'task_name': 'choose font and reply shirt', 'due_date': 1742245200.0, 'date_done': 1742399466.361, 'points': 10}
+{'clickup_id': '86eruaztc', 'task_name': 'Reply shirt', 'due_date': 1742072400.0, 'date_done': 1742105324.351, 'points': 10}
+{'clickup_id': '86ertc82y', 'task_name': 'cancel adobe acrobat suscription', 'due_date': 1742072400.0, 'date_done': 1742047878.878, 'points': 10}
+{'clickup_id': '86errwwe2', 'task_name': 'Reply shirt design', 'due_date': 1741640400.0, 'date_done': 1741546247.3, 'points': 10}
+{'clickup_id': '86erpne8m', 'task_name': 'Cancel adobe illustrator subscription', 'due_date': 1741381200.0, 'date_done': 1741445997.436, 'points': 10}
+{'clickup_id': '86erphnyw', 'task_name': 'check payments', 'due_date': 1740862800.0, 'date_done': 1740901954.629, 'points': 10}
+{'clickup_id': '86ernzget', 'task_name': 'test moving to 20.15', 'due_date': None, 'date_done': 1744789793.897, 'points': 10}
+{'clickup_id': '86ernhpja', 'task_name': 'choose players and confirm for friday', 'due_date': None, 'date_done': 1740663996.055, 'points': 10}
+{'clickup_id': '86ermvp1g', 'task_name': 'hire design shirts', 'due_date': 1741122000.0, 'date_done': 1741275769.94, 'points': 10}
+{'clickup_id': '86ermuqm5', 'task_name': 'call and change for 60 minutes', 'due_date': 1740517200.0, 'date_done': 1740539135.202, 'points': 10}
+{'clickup_id': '86ermjjnn', 'task_name': 'do 5 exercises', 'due_date': 1740517200.0, 'date_done': 1740916389.716, 'points': 10}
+{'clickup_id': '86ermjjnc', 'task_name': 'prepare wednesday training', 'due_date': 1740517200.0, 'date_done': 1740564770.479, 'points': 10}
+{'clickup_id': '86erkwvb8', 'task_name': 'check payments', 'due_date': None, 'date_done': 1740590854.477, 'points': 10}
+{'clickup_id': '86erf356k', 'task_name': 'pay coach', 'due_date': None, 'date_done': 1739011725.181, 'points': 10}
+{'clickup_id': '86erf3291', 'task_name': 'buy long pants', 'due_date': None, 'date_done': 1738742944.89, 'points': 10}
+{'clickup_id': '86erf0fud', 'task_name': 'call pitch and change to 90 minutes', 'due_date': None, 'date_done': 1738736404.436, 'points': 10}
+{'clickup_id': '86erez4wf', 'task_name': 'design shirt', 'due_date': 1740862800.0, 'date_done': 1739164087.115, 'points': 10}
+{'clickup_id': '86erez4w3', 'task_name': 'choose shirts supplier', 'due_date': None, 'date_done': 1739114735.824, 'points': 10}
+{'clickup_id': '86erez4vu', 'task_name': 'hire shirts', 'due_date': 1749934800.0, 'date_done': 1748984058.413, 'points': 10}
+{'clickup_id': '86erez420', 'task_name': 'Prepare next training', 'due_date': None, 'date_done': 1738717391.882, 'points': 10}
+{'clickup_id': '86euyn2bq', 'task_name': 'testing lose hp', 'due_date': 1757451600.0, 'date_done': 1758656531.404, 'points': 10}
+HP is 80
+XP is -10
+Level is 0
+Wallpaper set to: /home/mauricio/github/digimon/wallpapers/tmp_wallpaper.jpg
+HP is 100
+XP is 0
+Level is 0
+Wallpaper set to: /home/mauricio/github/digimon/wallpapers/tmp_wallpaper.jpg
