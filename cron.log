@@ -644,3 +644,212 @@ HP is 100
 XP is 0
 Level is 0
 Wallpaper set to: /home/mauricio/github/digimon/wallpapers/tmp_wallpaper.jpg
+
+
+ 2025-09-24 03:15:01.713424
+HP is 80
+XP is 370
+Level is 1
+Wallpaper set to: /home/mauricio/github/digimon/wallpapers/tmp_wallpaper.jpg
+
+
+ 2025-09-24 10:00:02.145181
+HP is 80
+XP is 370
+Level is 1
+Wallpaper set to: /home/mauricio/github/digimon/wallpapers/tmp_wallpaper.jpg
+
+
+ 2025-09-24 10:15:01.917360
+HP is 100
+XP is 5
+Level is 0
+Wallpaper set to: /home/mauricio/github/digimon/wallpapers/tmp_wallpaper.jpg
+
+
+ 2025-09-24 10:30:01.364892
+HP is 100
+XP is 10
+Level is 0
+Wallpaper set to: /home/mauricio/github/digimon/wallpapers/tmp_wallpaper.jpg
+
+
+ 2025-09-24 10:45:01.366058
+Traceback (most recent call last):
+  File "/home/mauricio/github/digimon/main.py", line 40, in <module>
+    conn, cur = connect_to_db()
+  File "/home/mauricio/github/digimon/main.py", line 25, in connect_to_db
+    conn = psycopg2.connect(
+  File "/home/mauricio/.local/lib/python3.10/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "192.168.1.131", port 5432 failed: No route to host
+	Is the server running on that host and accepting TCP/IP connections?
+
+
+
+ 2025-09-24 12:30:01.509842
+HP is 100
+XP is 20
+Level is 0
+Wallpaper set to: /home/mauricio/github/digimon/wallpapers/tmp_wallpaper.jpg
+
+
+ 2025-09-24 12:45:01.467769
+HP is 100
+XP is 20
+Level is 0
+Wallpaper set to: /home/mauricio/github/digimon/wallpapers/tmp_wallpaper.jpg
+
+
+ 2025-09-24 13:00:01.608354
+HP is 100
+XP is 20
+Level is 0
+Wallpaper set to: /home/mauricio/github/digimon/wallpapers/tmp_wallpaper.jpg
+
+
+ 2025-09-24 13:15:01.211033
+HP is 100
+XP is 20
+Level is 0
+Wallpaper set to: /home/mauricio/github/digimon/wallpapers/tmp_wallpaper.jpg
+
+
+ 2025-09-24 13:30:01.897559
+HP is 100
+XP is 20
+Level is 0
+Wallpaper set to: /home/mauricio/github/digimon/wallpapers/tmp_wallpaper.jpg
+
+
+ 2025-09-24 13:45:01.741652
+HP is 100
+XP is 20
+Level is 0
+Wallpaper set to: /home/mauricio/github/digimon/wallpapers/tmp_wallpaper.jpg
+
+
+ 2025-09-24 14:00:02.024449
+HP is 100
+XP is 20
+Level is 0
+Wallpaper set to: /home/mauricio/github/digimon/wallpapers/tmp_wallpaper.jpg
+
+
+ 2025-09-24 14:15:01.448250
+HP is 100
+XP is 20
+Level is 0
+Wallpaper set to: /home/mauricio/github/digimon/wallpapers/tmp_wallpaper.jpg
+
+
+ 2025-09-24 14:30:02.089961
+HP is 100
+XP is 20
+Level is 0
+Wallpaper set to: /home/mauricio/github/digimon/wallpapers/tmp_wallpaper.jpg
+
+
+ 2025-09-24 14:45:01.542621
+HP is 100
+XP is 20
+Level is 0
+Wallpaper set to: /home/mauricio/github/digimon/wallpapers/tmp_wallpaper.jpg
+
+
+ 2025-09-24 15:00:01.874616
+HP is 100
+XP is 20
+Level is 0
+Wallpaper set to: /home/mauricio/github/digimon/wallpapers/tmp_wallpaper.jpg
+
+
+ 2025-09-24 15:15:01.481632
+HP is 100
+XP is 20
+Level is 0
+Wallpaper set to: /home/mauricio/github/digimon/wallpapers/tmp_wallpaper.jpg
+
+
+ 2025-09-24 15:30:01.871580
+HP is 100
+XP is 20
+Level is 0
+Wallpaper set to: /home/mauricio/github/digimon/wallpapers/tmp_wallpaper.jpg
+
+
+ 2025-09-24 15:45:01.644196
+HP is 100
+XP is 20
+Level is 0
+Wallpaper set to: /home/mauricio/github/digimon/wallpapers/tmp_wallpaper.jpg
+
+
+ 2025-09-24 16:00:01.211644
+HP is 100
+XP is 20
+Level is 0
+Wallpaper set to: /home/mauricio/github/digimon/wallpapers/tmp_wallpaper.jpg
+
+
+ 2025-09-24 16:15:02.100136
+HP is 100
+XP is 25
+Level is 0
+Wallpaper set to: /home/mauricio/github/digimon/wallpapers/tmp_wallpaper.jpg
+
+
+ 2025-09-24 16:30:01.160897
+HP is 100
+XP is 35
+Level is 0
+Wallpaper set to: /home/mauricio/github/digimon/wallpapers/tmp_wallpaper.jpg
+
+
+ 2025-09-24 16:45:01.432160
+HP is 100
+XP is 45
+Level is 0
+Wallpaper set to: /home/mauricio/github/digimon/wallpapers/tmp_wallpaper.jpg
+
+
+ 2025-09-24 23:15:01.877164
+HP is 100
+XP is 75
+Level is 0
+Wallpaper set to: /home/mauricio/github/digimon/wallpapers/tmp_wallpaper.jpg
+
+
+ 2025-09-24 23:30:02.014229
+HP is 100
+XP is 85
+Level is 0
+Wallpaper set to: /home/mauricio/github/digimon/wallpapers/tmp_wallpaper.jpg
+
+
+ 2025-09-24 23:45:01.457691
+HP is 100
+XP is 90
+Level is 0
+Wallpaper set to: /home/mauricio/github/digimon/wallpapers/tmp_wallpaper.jpg
+
+
+ 2025-09-25 00:00:01.443425
+HP is 90
+XP is 70
+Level is 0
+Wallpaper set to: /home/mauricio/github/digimon/wallpapers/tmp_wallpaper.jpg
+
+
+ 2025-09-25 00:15:02.121171
+HP is 90
+XP is 70
+Level is 0
+Wallpaper set to: /home/mauricio/github/digimon/wallpapers/tmp_wallpaper.jpg
+
+
+ 2025-09-25 00:30:02.052756
+HP is 70
+XP is 50
+Level is 0
+Wallpaper set to: /home/mauricio/github/digimon/wallpapers/tmp_wallpaper.jpg

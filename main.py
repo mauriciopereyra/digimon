@@ -191,7 +191,7 @@ def refresh():
 
 
 def calculate_points():
-    levels = [0, 150, 1000, 3000, 5000]
+    levels = [0, 150, 1000, 3000, 5000, 20000]
     hp = 100
     xp = 0
     saved_active_tasks = get_saved_active_tasks(conn, cur)
@@ -223,10 +223,12 @@ def calculate_points():
             current_level = level
     print(f'Level is {current_level}')
 
-    return current_level, hp, xp
+    max_xp = levels[current_level+1]
+
+    return current_level, hp, xp, max_xp
 
 
-def set_wallpaper(current_level, hp, xp):
+def set_wallpaper(current_level, hp, xp, max_xp):
     # Lista de imágenes base
     image_paths = [
         '/home/mauricio/github/digimon/wallpapers/koromon.jpg',
@@ -235,6 +237,8 @@ def set_wallpaper(current_level, hp, xp):
         '/home/mauricio/github/digimon/wallpapers/metal_greymon.jpg',
         '/home/mauricio/github/digimon/wallpapers/war_greymon.jpg',
     ]
+
+    max_hp = 100
 
     base_image = image_paths[current_level]
     if not os.path.isfile(base_image):
@@ -248,19 +252,38 @@ def set_wallpaper(current_level, hp, xp):
 
     # Tamaño de fuente relativo a la altura de la imagen
     # mínimo 20 para no ser demasiado pequeño
-    font_size = max(20, int(img.height * 0.05))
+    font_size = max(15, int(img.height * 0.04))
     font = ImageFont.truetype(
         "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf", font_size
     )
 
-    # Márgenes desde el borde superior izquierdo
-    margin_x = int(img.width * 0.06)  # 3% del ancho
-    margin_y = int(img.height * 0.30)  # 3% del alto
+    margin_x = int(img.width * 0.3555)
+    margin_y = int(img.height * 0.79)
 
-    # Dibujar HP y XP
-    draw.text((margin_x, margin_y), f"HP: {hp}", fill="red", font=font)
-    draw.text((margin_x, margin_y + font_size + 5),
-              f"XP: {xp}", fill="blue", font=font)
+    bar_width = int(img.width * 0.2833)
+    bar_height = font_size
+
+    def draw_bar(draw, x, y, current, maximum, bar_color, bg_color="gray"):
+        # Barra de fondo
+        draw.rectangle([x, y, x + bar_width, y + bar_height], fill=bg_color)
+        # Barra actual
+        filled_width = int(bar_width * current / maximum)
+        draw.rectangle([x, y, x + filled_width, y +
+                       bar_height], fill=bar_color)
+        # Número centrado
+        text = f"{current}/{maximum}"
+        bbox = draw.textbbox((0, 0), text, font=font)
+        text_width = bbox[2] - bbox[0]
+        text_height = bbox[3] - bbox[1]
+        text_x = x + (bar_width - text_width) / 2
+        text_y = y + (bar_height - text_height) / 2 - 3
+        draw.text((text_x, text_y), text, fill="white", font=font)
+
+    # Dibujar HP
+    draw_bar(draw, margin_x, margin_y, hp, max_hp, bar_color="red")
+    # Dibujar XP debajo
+    draw_bar(draw, margin_x, margin_y + bar_height +
+             5, xp, max_xp, bar_color="cyan")
 
     # Guardar y establecer wallpaper
     img.save(temp_image)
@@ -273,8 +296,8 @@ try:
     if len(sys.argv) < 2 or sys.argv[1] == 'refresh':
         refresh()
     if len(sys.argv) < 2 or sys.argv[1] == 'calculate':
-        current_level, hp, xp = calculate_points()
-        set_wallpaper(current_level, hp, xp)
+        current_level, hp, xp, max_xp = calculate_points()
+        set_wallpaper(current_level, hp, xp, max_xp)
 except Exception as e:
     print(e)
 finally:
