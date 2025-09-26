@@ -231,11 +231,11 @@ def calculate_points():
 def set_wallpaper(current_level, hp, xp, max_xp):
     # Lista de imágenes base
     image_paths = [
-        '/home/mauricio/github/digimon/wallpapers/koromon.jpg',
-        '/home/mauricio/github/digimon/wallpapers/agumon.jpg',
-        '/home/mauricio/github/digimon/wallpapers/greymon.jpg',
-        '/home/mauricio/github/digimon/wallpapers/metal_greymon.jpg',
-        '/home/mauricio/github/digimon/wallpapers/war_greymon.jpg',
+        '/home/mauricio/github/digimon/wallpapers/koromon.png',
+        '/home/mauricio/github/digimon/wallpapers/agumon.png',
+        '/home/mauricio/github/digimon/wallpapers/greymon.png',
+        '/home/mauricio/github/digimon/wallpapers/metal_greymon.png',
+        '/home/mauricio/github/digimon/wallpapers/war_greymon.png',
     ]
 
     max_hp = 100

@@ -853,3 +853,77 @@ HP is 70
 XP is 50
 Level is 0
 Wallpaper set to: /home/mauricio/github/digimon/wallpapers/tmp_wallpaper.jpg
+
+
+ 2025-09-25 00:45:01.854119
+HP is 90
+XP is 70
+Level is 0
+Wallpaper set to: /home/mauricio/github/digimon/wallpapers/tmp_wallpaper.jpg
+
+
+ 2025-09-25 01:00:01.791451
+HP is 90
+XP is 70
+Level is 0
+Wallpaper set to: /home/mauricio/github/digimon/wallpapers/tmp_wallpaper.jpg
+
+
+ 2025-09-25 01:15:01.526890
+Traceback (most recent call last):
+  File "/home/mauricio/github/digimon/main.py", line 40, in <module>
+    conn, cur = connect_to_db()
+  File "/home/mauricio/github/digimon/main.py", line 25, in connect_to_db
+    conn = psycopg2.connect(
+  File "/home/mauricio/.local/lib/python3.10/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "192.168.1.131", port 5432 failed: No route to host
+	Is the server running on that host and accepting TCP/IP connections?
+
+
+
+ 2025-09-25 01:30:01.975874
+Traceback (most recent call last):
+  File "/home/mauricio/github/digimon/main.py", line 40, in <module>
+    conn, cur = connect_to_db()
+  File "/home/mauricio/github/digimon/main.py", line 25, in connect_to_db
+    conn = psycopg2.connect(
+  File "/home/mauricio/.local/lib/python3.10/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "192.168.1.131", port 5432 failed: No route to host
+	Is the server running on that host and accepting TCP/IP connections?
+
+
+
+ 2025-09-25 14:30:02.064580
+HP is 90
+XP is 80
+Level is 0
+Wallpaper set to: /home/mauricio/github/digimon/wallpapers/tmp_wallpaper.jpg
+
+
+ 2025-09-25 19:15:02.098912
+Traceback (most recent call last):
+  File "/home/mauricio/github/digimon/main.py", line 40, in <module>
+    conn, cur = connect_to_db()
+  File "/home/mauricio/github/digimon/main.py", line 25, in connect_to_db
+    conn = psycopg2.connect(
+  File "/home/mauricio/.local/lib/python3.10/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "192.168.1.131", port 5432 failed: No route to host
+	Is the server running on that host and accepting TCP/IP connections?
+
+
+
+ 2025-09-25 19:30:01.343386
+HP is 90
+XP is 80
+Level is 0
+Wallpaper set to: /home/mauricio/github/digimon/wallpapers/tmp_wallpaper.jpg
+
+
+ 2025-09-26 12:45:01.317570
+HP is 60
+XP is 65
+Level is 0
+Wallpaper set to: /home/mauricio/github/digimon/wallpapers/tmp_wallpaper.jpg
