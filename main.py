@@ -1,14 +1,15 @@
+from functools import reduce
 from PIL import Image, ImageDraw, ImageFont
 import requests
 import json
-from datetime import datetime, date
+from datetime import datetime, date, timedelta
 import psycopg2
 import sys
 import os
 
 # DB columns
 
-print('\n\n', datetime.now())
+print('\n\n----', datetime.now())
 
 ID = 0
 CLICKUP_ID = 1
@@ -198,22 +199,31 @@ def calculate_points():
     last_reset = get_last_reset(conn, cur)
     today = datetime.now()
 
-    for task in saved_active_tasks:
-        if task[DATE_DONE]:
-            xp += task[POINTS]
-        else:
-            xp -= min(task[POINTS] * 3, 20)
-            hp -= min(task[POINTS] * 3, 20)
-
     # recover hp by day
     daily_hp = 10
     days_passed = (today.date() - last_reset.date()).days
-    hp += daily_hp * days_passed
+
+    for delta_day in range(days_passed, -1, -1):
+        current_day = (today - timedelta(days=delta_day)).date()
+        print(f'Current day is {current_day}')
+
+        if not current_day == last_reset.date():
+            hp += daily_hp
+            if hp > 100:
+                hp = 100
+
+        for task in list(filter(lambda task: task[DATE_ADDED].date() == current_day, saved_active_tasks)):
+            if task[DATE_DONE]:
+                xp += task[POINTS]
+            else:
+                xp -= min(task[POINTS] * 3, 20)
+                hp -= min(task[POINTS] * 3, 20)
+
+        print(hp)
 
     if hp < 0:
         insert_reset(conn, cur)
-    elif hp > 100:
-        hp = 100
+        calculate_points()
 
     print(f'HP is {hp}')
     print(f'XP is {xp}')
