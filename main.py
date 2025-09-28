@@ -143,7 +143,7 @@ def get_clickup_tasks():
 
 def process_task(task):
     points = 10  # default
-    points_in_description = re.search('\+(\d)', task['description'])
+    points_in_description = re.search('\+(\d*)', task['description'])
     if points_in_description:
         points = int(points_in_description.groups(0)[0])
     else:  # points in custom field
