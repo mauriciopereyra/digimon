@@ -142,20 +142,19 @@ def get_clickup_tasks():
 
 
 def process_task(task):
-    points = 10
+    points = 10  # default
     points_in_description = re.search('\+(\d)', task['description'])
     if points_in_description:
         points = int(points_in_description.groups(0)[0])
     else:  # points in custom field
-        int(next((f.get('value', 10)
-            for f in task.get('custom_fields', []) if f.get('name') == 'points'), 10))
+        points = int(next((f.get('value', 10)
+                           for f in task.get('custom_fields', []) if f.get('name') == 'points'), 10))
 
     processed_task = {
         'clickup_id': task['id'],
         'task_name': task['name'],
         'due_date': int(task['due_date'])/1000 if task['due_date'] else None,
         'date_done': int(task['date_done'])/1000 if task['date_done'] else None,
-        # 10  # fix later
         'points': points,
     }
 
