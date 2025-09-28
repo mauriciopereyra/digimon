@@ -940,3 +940,821 @@ HP is 50
 XP is 65
 Level is 0
 Wallpaper set to: /home/mauricio/github/digimon/wallpapers/tmp_wallpaper.jpg
+
+
+---- 2025-09-26 13:15:01.346262
+Current day is 2025-09-24
+100
+Current day is 2025-09-25
+80
+Current day is 2025-09-26
+50
+HP is 50
+XP is 65
+Level is 0
+Wallpaper set to: /home/mauricio/github/digimon/wallpapers/tmp_wallpaper.jpg
+
+
+---- 2025-09-26 13:30:01.899763
+Current day is 2025-09-24
+100
+Current day is 2025-09-25
+80
+Current day is 2025-09-26
+50
+HP is 50
+XP is 65
+Level is 0
+Wallpaper set to: /home/mauricio/github/digimon/wallpapers/tmp_wallpaper.jpg
+
+
+---- 2025-09-26 13:45:01.760111
+Current day is 2025-09-24
+100
+Current day is 2025-09-25
+80
+Current day is 2025-09-26
+50
+HP is 50
+XP is 75
+Level is 0
+Wallpaper set to: /home/mauricio/github/digimon/wallpapers/tmp_wallpaper.jpg
+
+
+---- 2025-09-26 19:30:01.172096
+Traceback (most recent call last):
+  File "/home/mauricio/github/digimon/main.py", line 41, in <module>
+    conn, cur = connect_to_db()
+  File "/home/mauricio/github/digimon/main.py", line 26, in connect_to_db
+    conn = psycopg2.connect(
+  File "/home/mauricio/.local/lib/python3.10/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "192.168.1.131", port 5432 failed: No route to host
+	Is the server running on that host and accepting TCP/IP connections?
+
+
+
+---- 2025-09-26 19:45:01.433370
+Traceback (most recent call last):
+  File "/home/mauricio/github/digimon/main.py", line 41, in <module>
+    conn, cur = connect_to_db()
+  File "/home/mauricio/github/digimon/main.py", line 26, in connect_to_db
+    conn = psycopg2.connect(
+  File "/home/mauricio/.local/lib/python3.10/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "192.168.1.131", port 5432 failed: No route to host
+	Is the server running on that host and accepting TCP/IP connections?
+
+
+
+---- 2025-09-26 20:00:01.135308
+Current day is 2025-09-24
+100
+Current day is 2025-09-25
+80
+Current day is 2025-09-26
+50
+HP is 50
+XP is 100
+Level is 0
+Wallpaper set to: /home/mauricio/github/digimon/wallpapers/tmp_wallpaper.jpg
+
+
+---- 2025-09-26 20:15:01.987390
+Current day is 2025-09-24
+100
+Current day is 2025-09-25
+80
+Current day is 2025-09-26
+50
+HP is 50
+XP is 100
+Level is 0
+Wallpaper set to: /home/mauricio/github/digimon/wallpapers/tmp_wallpaper.jpg
+
+
+---- 2025-09-26 23:00:01.621491
+Current day is 2025-09-24
+100
+Current day is 2025-09-25
+80
+Current day is 2025-09-26
+50
+HP is 50
+XP is 100
+Level is 0
+Wallpaper set to: /home/mauricio/github/digimon/wallpapers/tmp_wallpaper.jpg
+
+
+---- 2025-09-26 23:15:01.268689
+Traceback (most recent call last):
+  File "/home/mauricio/github/digimon/main.py", line 41, in <module>
+    conn, cur = connect_to_db()
+  File "/home/mauricio/github/digimon/main.py", line 26, in connect_to_db
+    conn = psycopg2.connect(
+  File "/home/mauricio/.local/lib/python3.10/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "192.168.1.131", port 5432 failed: No route to host
+	Is the server running on that host and accepting TCP/IP connections?
+
+
+
+---- 2025-09-26 23:30:01.978355
+Current day is 2025-09-24
+100
+Current day is 2025-09-25
+80
+Current day is 2025-09-26
+50
+HP is 50
+XP is 100
+Level is 0
+Wallpaper set to: /home/mauricio/github/digimon/wallpapers/tmp_wallpaper.jpg
+
+
+---- 2025-09-26 23:45:01.563971
+Current day is 2025-09-24
+100
+Current day is 2025-09-25
+80
+Current day is 2025-09-26
+50
+HP is 50
+XP is 105
+Level is 0
+Wallpaper set to: /home/mauricio/github/digimon/wallpapers/tmp_wallpaper.jpg
+
+
+---- 2025-09-27 00:00:01.589763
+Current day is 2025-09-24
+100
+Current day is 2025-09-25
+80
+Current day is 2025-09-26
+50
+Current day is 2025-09-27
+20
+HP is 20
+XP is 70
+Level is 0
+Wallpaper set to: /home/mauricio/github/digimon/wallpapers/tmp_wallpaper.jpg
+
+
+---- 2025-09-27 00:15:01.727858
+Current day is 2025-09-24
+100
+Current day is 2025-09-25
+80
+Current day is 2025-09-26
+50
+Current day is 2025-09-27
+20
+HP is 20
+XP is 70
+Level is 0
+Wallpaper set to: /home/mauricio/github/digimon/wallpapers/tmp_wallpaper.jpg
+
+
+---- 2025-09-27 00:30:01.391318
+Current day is 2025-09-24
+100
+Current day is 2025-09-25
+80
+Current day is 2025-09-26
+50
+Current day is 2025-09-27
+20
+HP is 20
+XP is 75
+Level is 0
+Wallpaper set to: /home/mauricio/github/digimon/wallpapers/tmp_wallpaper.jpg
+
+
+---- 2025-09-27 00:45:01.426742
+Current day is 2025-09-24
+100
+Current day is 2025-09-25
+80
+Current day is 2025-09-26
+50
+Current day is 2025-09-27
+20
+HP is 20
+XP is 75
+Level is 0
+Wallpaper set to: /home/mauricio/github/digimon/wallpapers/tmp_wallpaper.jpg
+
+
+---- 2025-09-27 01:00:01.965714
+Current day is 2025-09-24
+100
+Current day is 2025-09-25
+80
+Current day is 2025-09-26
+50
+Current day is 2025-09-27
+20
+HP is 20
+XP is 75
+Level is 0
+Wallpaper set to: /home/mauricio/github/digimon/wallpapers/tmp_wallpaper.jpg
+
+
+---- 2025-09-27 01:15:01.559533
+Current day is 2025-09-24
+100
+Current day is 2025-09-25
+80
+Current day is 2025-09-26
+50
+Current day is 2025-09-27
+20
+HP is 20
+XP is 75
+Level is 0
+Wallpaper set to: /home/mauricio/github/digimon/wallpapers/tmp_wallpaper.jpg
+
+
+---- 2025-09-27 01:30:01.675907
+Current day is 2025-09-24
+100
+Current day is 2025-09-25
+80
+Current day is 2025-09-26
+50
+Current day is 2025-09-27
+20
+HP is 20
+XP is 75
+Level is 0
+Wallpaper set to: /home/mauricio/github/digimon/wallpapers/tmp_wallpaper.jpg
+
+
+---- 2025-09-27 01:45:02.038010
+Traceback (most recent call last):
+  File "/home/mauricio/github/digimon/main.py", line 41, in <module>
+    conn, cur = connect_to_db()
+  File "/home/mauricio/github/digimon/main.py", line 26, in connect_to_db
+    conn = psycopg2.connect(
+  File "/home/mauricio/.local/lib/python3.10/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "192.168.1.131", port 5432 failed: No route to host
+	Is the server running on that host and accepting TCP/IP connections?
+
+
+
+---- 2025-09-27 02:00:01.527846
+Traceback (most recent call last):
+  File "/home/mauricio/github/digimon/main.py", line 41, in <module>
+    conn, cur = connect_to_db()
+  File "/home/mauricio/github/digimon/main.py", line 26, in connect_to_db
+    conn = psycopg2.connect(
+  File "/home/mauricio/.local/lib/python3.10/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "192.168.1.131", port 5432 failed: No route to host
+	Is the server running on that host and accepting TCP/IP connections?
+
+
+
+---- 2025-09-27 02:15:01.280772
+Traceback (most recent call last):
+  File "/home/mauricio/github/digimon/main.py", line 41, in <module>
+    conn, cur = connect_to_db()
+  File "/home/mauricio/github/digimon/main.py", line 26, in connect_to_db
+    conn = psycopg2.connect(
+  File "/home/mauricio/.local/lib/python3.10/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "192.168.1.131", port 5432 failed: No route to host
+	Is the server running on that host and accepting TCP/IP connections?
+
+
+
+---- 2025-09-27 02:30:01.546358
+Traceback (most recent call last):
+  File "/home/mauricio/github/digimon/main.py", line 41, in <module>
+    conn, cur = connect_to_db()
+  File "/home/mauricio/github/digimon/main.py", line 26, in connect_to_db
+    conn = psycopg2.connect(
+  File "/home/mauricio/.local/lib/python3.10/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "192.168.1.131", port 5432 failed: No route to host
+	Is the server running on that host and accepting TCP/IP connections?
+
+
+
+---- 2025-09-27 04:45:02.170221
+Traceback (most recent call last):
+  File "/home/mauricio/github/digimon/main.py", line 41, in <module>
+    conn, cur = connect_to_db()
+  File "/home/mauricio/github/digimon/main.py", line 26, in connect_to_db
+    conn = psycopg2.connect(
+  File "/home/mauricio/.local/lib/python3.10/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "192.168.1.131", port 5432 failed: No route to host
+	Is the server running on that host and accepting TCP/IP connections?
+
+
+
+---- 2025-09-27 05:00:01.427557
+Traceback (most recent call last):
+  File "/home/mauricio/github/digimon/main.py", line 41, in <module>
+    conn, cur = connect_to_db()
+  File "/home/mauricio/github/digimon/main.py", line 26, in connect_to_db
+    conn = psycopg2.connect(
+  File "/home/mauricio/.local/lib/python3.10/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "192.168.1.131", port 5432 failed: No route to host
+	Is the server running on that host and accepting TCP/IP connections?
+
+
+
+---- 2025-09-27 05:15:01.682464
+Traceback (most recent call last):
+  File "/home/mauricio/github/digimon/main.py", line 41, in <module>
+    conn, cur = connect_to_db()
+  File "/home/mauricio/github/digimon/main.py", line 26, in connect_to_db
+    conn = psycopg2.connect(
+  File "/home/mauricio/.local/lib/python3.10/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "192.168.1.131", port 5432 failed: No route to host
+	Is the server running on that host and accepting TCP/IP connections?
+
+
+
+---- 2025-09-27 05:30:01.935098
+Current day is 2025-09-24
+100
+Current day is 2025-09-25
+80
+Current day is 2025-09-26
+50
+Current day is 2025-09-27
+20
+HP is 20
+XP is 85
+Level is 0
+Wallpaper set to: /home/mauricio/github/digimon/wallpapers/tmp_wallpaper.jpg
+
+
+---- 2025-09-27 05:45:01.371213
+Current day is 2025-09-24
+100
+Current day is 2025-09-25
+80
+Current day is 2025-09-26
+50
+Current day is 2025-09-27
+20
+HP is 20
+XP is 85
+Level is 0
+Wallpaper set to: /home/mauricio/github/digimon/wallpapers/tmp_wallpaper.jpg
+
+
+---- 2025-09-27 06:00:01.413335
+Current day is 2025-09-24
+100
+Current day is 2025-09-25
+80
+Current day is 2025-09-26
+50
+Current day is 2025-09-27
+20
+HP is 20
+XP is 85
+Level is 0
+Wallpaper set to: /home/mauricio/github/digimon/wallpapers/tmp_wallpaper.jpg
+
+
+---- 2025-09-27 06:15:01.449761
+Current day is 2025-09-24
+100
+Current day is 2025-09-25
+80
+Current day is 2025-09-26
+50
+Current day is 2025-09-27
+20
+HP is 20
+XP is 85
+Level is 0
+Wallpaper set to: /home/mauricio/github/digimon/wallpapers/tmp_wallpaper.jpg
+
+
+---- 2025-09-27 06:30:01.670620
+Current day is 2025-09-24
+100
+Current day is 2025-09-25
+80
+Current day is 2025-09-26
+50
+Current day is 2025-09-27
+20
+HP is 20
+XP is 85
+Level is 0
+Wallpaper set to: /home/mauricio/github/digimon/wallpapers/tmp_wallpaper.jpg
+
+
+---- 2025-09-27 15:00:02.093344
+Traceback (most recent call last):
+  File "/home/mauricio/github/digimon/main.py", line 41, in <module>
+    conn, cur = connect_to_db()
+  File "/home/mauricio/github/digimon/main.py", line 26, in connect_to_db
+    conn = psycopg2.connect(
+  File "/home/mauricio/.local/lib/python3.10/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "192.168.1.131", port 5432 failed: No route to host
+	Is the server running on that host and accepting TCP/IP connections?
+
+
+
+---- 2025-09-27 20:45:01.852553
+Current day is 2025-09-24
+100
+Current day is 2025-09-25
+80
+Current day is 2025-09-26
+50
+Current day is 2025-09-27
+20
+HP is 20
+XP is 95
+Level is 0
+Wallpaper set to: /home/mauricio/github/digimon/wallpapers/tmp_wallpaper.jpg
+
+
+---- 2025-09-27 21:00:01.355160
+Current day is 2025-09-24
+100
+Current day is 2025-09-25
+80
+Current day is 2025-09-26
+50
+Current day is 2025-09-27
+20
+HP is 20
+XP is 95
+Level is 0
+Wallpaper set to: /home/mauricio/github/digimon/wallpapers/tmp_wallpaper.jpg
+
+
+---- 2025-09-27 21:15:01.946070
+Current day is 2025-09-24
+100
+Current day is 2025-09-25
+80
+Current day is 2025-09-26
+50
+Current day is 2025-09-27
+20
+HP is 20
+XP is 95
+Level is 0
+Wallpaper set to: /home/mauricio/github/digimon/wallpapers/tmp_wallpaper.jpg
+
+
+---- 2025-09-27 21:30:01.803549
+Current day is 2025-09-24
+100
+Current day is 2025-09-25
+80
+Current day is 2025-09-26
+50
+Current day is 2025-09-27
+20
+HP is 20
+XP is 105
+Level is 0
+Wallpaper set to: /home/mauricio/github/digimon/wallpapers/tmp_wallpaper.jpg
+
+
+---- 2025-09-27 21:45:01.491354
+Current day is 2025-09-24
+100
+Current day is 2025-09-25
+80
+Current day is 2025-09-26
+50
+Current day is 2025-09-27
+20
+HP is 20
+XP is 105
+Level is 0
+Wallpaper set to: /home/mauricio/github/digimon/wallpapers/tmp_wallpaper.jpg
+
+
+---- 2025-09-28 01:00:02.130330
+Current day is 2025-09-24
+100
+Current day is 2025-09-25
+80
+Current day is 2025-09-26
+50
+Current day is 2025-09-27
+20
+Current day is 2025-09-28
+30
+HP is 30
+XP is 105
+Level is 0
+Wallpaper set to: /home/mauricio/github/digimon/wallpapers/tmp_wallpaper.jpg
+
+
+---- 2025-09-28 01:15:02.072508
+Current day is 2025-09-24
+100
+Current day is 2025-09-25
+80
+Current day is 2025-09-26
+50
+Current day is 2025-09-27
+20
+Current day is 2025-09-28
+30
+HP is 30
+XP is 105
+Level is 0
+Wallpaper set to: /home/mauricio/github/digimon/wallpapers/tmp_wallpaper.jpg
+
+
+---- 2025-09-28 01:30:01.824749
+Current day is 2025-09-24
+100
+Current day is 2025-09-25
+80
+Current day is 2025-09-26
+50
+Current day is 2025-09-27
+20
+Current day is 2025-09-28
+30
+HP is 30
+XP is 105
+Level is 0
+Wallpaper set to: /home/mauricio/github/digimon/wallpapers/tmp_wallpaper.jpg
+
+
+---- 2025-09-28 01:45:01.331024
+Current day is 2025-09-24
+100
+Current day is 2025-09-25
+80
+Current day is 2025-09-26
+50
+Current day is 2025-09-27
+20
+Current day is 2025-09-28
+30
+HP is 30
+XP is 105
+Level is 0
+Wallpaper set to: /home/mauricio/github/digimon/wallpapers/tmp_wallpaper.jpg
+
+
+---- 2025-09-28 02:00:01.891079
+Current day is 2025-09-24
+100
+Current day is 2025-09-25
+80
+Current day is 2025-09-26
+50
+Current day is 2025-09-27
+20
+Current day is 2025-09-28
+30
+HP is 30
+XP is 105
+Level is 0
+Wallpaper set to: /home/mauricio/github/digimon/wallpapers/tmp_wallpaper.jpg
+
+
+---- 2025-09-28 02:15:01.539725
+Current day is 2025-09-24
+100
+Current day is 2025-09-25
+80
+Current day is 2025-09-26
+50
+Current day is 2025-09-27
+20
+Current day is 2025-09-28
+30
+HP is 30
+XP is 105
+Level is 0
+Wallpaper set to: /home/mauricio/github/digimon/wallpapers/tmp_wallpaper.jpg
+
+
+---- 2025-09-28 02:30:01.280334
+Current day is 2025-09-24
+100
+Current day is 2025-09-25
+80
+Current day is 2025-09-26
+50
+Current day is 2025-09-27
+20
+Current day is 2025-09-28
+30
+HP is 30
+XP is 105
+Level is 0
+Wallpaper set to: /home/mauricio/github/digimon/wallpapers/tmp_wallpaper.jpg
+
+
+---- 2025-09-28 02:45:02.104072
+Current day is 2025-09-24
+100
+Current day is 2025-09-25
+80
+Current day is 2025-09-26
+50
+Current day is 2025-09-27
+20
+Current day is 2025-09-28
+30
+HP is 30
+XP is 105
+Level is 0
+Wallpaper set to: /home/mauricio/github/digimon/wallpapers/tmp_wallpaper.jpg
+
+
+---- 2025-09-28 03:00:01.280151
+Current day is 2025-09-24
+100
+Current day is 2025-09-25
+80
+Current day is 2025-09-26
+50
+Current day is 2025-09-27
+20
+Current day is 2025-09-28
+30
+HP is 30
+XP is 105
+Level is 0
+Wallpaper set to: /home/mauricio/github/digimon/wallpapers/tmp_wallpaper.jpg
+
+
+---- 2025-09-28 03:15:01.460148
+Current day is 2025-09-24
+100
+Current day is 2025-09-25
+80
+Current day is 2025-09-26
+50
+Current day is 2025-09-27
+20
+Current day is 2025-09-28
+30
+HP is 30
+XP is 105
+Level is 0
+Wallpaper set to: /home/mauricio/github/digimon/wallpapers/tmp_wallpaper.jpg
+
+
+---- 2025-09-28 03:30:02.092671
+Current day is 2025-09-24
+100
+Current day is 2025-09-25
+80
+Current day is 2025-09-26
+50
+Current day is 2025-09-27
+20
+Current day is 2025-09-28
+30
+HP is 30
+XP is 105
+Level is 0
+Wallpaper set to: /home/mauricio/github/digimon/wallpapers/tmp_wallpaper.jpg
+
+
+---- 2025-09-28 03:45:01.146776
+Current day is 2025-09-24
+100
+Current day is 2025-09-25
+80
+Current day is 2025-09-26
+50
+Current day is 2025-09-27
+20
+Current day is 2025-09-28
+30
+HP is 30
+XP is 105
+Level is 0
+Wallpaper set to: /home/mauricio/github/digimon/wallpapers/tmp_wallpaper.jpg
+
+
+---- 2025-09-28 04:00:01.334750
+Current day is 2025-09-24
+100
+Current day is 2025-09-25
+80
+Current day is 2025-09-26
+50
+Current day is 2025-09-27
+20
+Current day is 2025-09-28
+30
+HP is 30
+XP is 105
+Level is 0
+Wallpaper set to: /home/mauricio/github/digimon/wallpapers/tmp_wallpaper.jpg
+
+
+---- 2025-09-28 04:15:01.347053
+Current day is 2025-09-24
+100
+Current day is 2025-09-25
+80
+Current day is 2025-09-26
+50
+Current day is 2025-09-27
+20
+Current day is 2025-09-28
+30
+HP is 30
+XP is 105
+Level is 0
+Wallpaper set to: /home/mauricio/github/digimon/wallpapers/tmp_wallpaper.jpg
+
+
+---- 2025-09-28 04:30:01.341773
+Current day is 2025-09-24
+100
+Current day is 2025-09-25
+80
+Current day is 2025-09-26
+50
+Current day is 2025-09-27
+20
+Current day is 2025-09-28
+30
+HP is 30
+XP is 105
+Level is 0
+Wallpaper set to: /home/mauricio/github/digimon/wallpapers/tmp_wallpaper.jpg
+
+
+---- 2025-09-28 04:45:02.121534
+Current day is 2025-09-24
+100
+Current day is 2025-09-25
+80
+Current day is 2025-09-26
+50
+Current day is 2025-09-27
+20
+Current day is 2025-09-28
+30
+HP is 30
+XP is 105
+Level is 0
+Wallpaper set to: /home/mauricio/github/digimon/wallpapers/tmp_wallpaper.jpg
+
+
+---- 2025-09-28 05:00:02.075554
+Current day is 2025-09-24
+100
+Current day is 2025-09-25
+80
+Current day is 2025-09-26
+50
+Current day is 2025-09-27
+20
+Current day is 2025-09-28
+30
+HP is 30
+XP is 105
+Level is 0
+Wallpaper set to: /home/mauricio/github/digimon/wallpapers/tmp_wallpaper.jpg
+
+
+---- 2025-09-29 01:30:01.234457
+Current day is 2025-09-29
+100
+HP is 100
+XP is 0
+Level is 0
+Wallpaper set to: /home/mauricio/github/digimon/wallpapers/tmp_wallpaper.jpg
+
+
+---- 2025-09-29 01:45:01.982470
+Current day is 2025-09-29
+100
+HP is 100
+XP is 0
+Level is 0
+Wallpaper set to: /home/mauricio/github/digimon/wallpapers/tmp_wallpaper.jpg
+
+
+---- 2025-09-29 02:00:01.885780
+Current day is 2025-09-29
+91
+HP is 91
+XP is -9
+Level is 0
+x1 must be greater than or equal to x0

@@ -1,3 +1,4 @@
+import re
 from functools import reduce
 from PIL import Image, ImageDraw, ImageFont
 import requests
@@ -141,13 +142,21 @@ def get_clickup_tasks():
 
 
 def process_task(task):
+    points = 10
+    points_in_description = re.search('\+(\d)', task['description'])
+    if points_in_description:
+        points = int(points_in_description.groups(0)[0])
+    else:  # points in custom field
+        int(next((f.get('value', 10)
+            for f in task.get('custom_fields', []) if f.get('name') == 'points'), 10))
+
     processed_task = {
         'clickup_id': task['id'],
         'task_name': task['name'],
         'due_date': int(task['due_date'])/1000 if task['due_date'] else None,
         'date_done': int(task['date_done'])/1000 if task['date_done'] else None,
         # 10  # fix later
-        'points': int(next((f.get('value', 10) for f in task.get('custom_fields', []) if f.get('name') == 'points'), 10)),
+        'points': points,
     }
 
     return processed_task
@@ -229,7 +238,10 @@ def calculate_points():
     print(f'XP is {xp}')
     current_level = 0
     for level, level_xp in enumerate(levels):
-        if xp >= level_xp:
+        if xp < 0:
+            current_level = 0
+            break
+        elif xp >= level_xp:
             current_level = level
     print(f'Level is {current_level}')
 
@@ -290,8 +302,10 @@ def set_wallpaper(current_level, hp, xp, max_xp):
         draw.text((text_x, text_y), text, fill="white", font=font)
 
     # Dibujar HP
+    hp = max(0, hp)
     draw_bar(draw, margin_x, margin_y, hp, max_hp, bar_color="red")
     # Dibujar XP debajo
+    xp = max(0, xp)
     draw_bar(draw, margin_x, margin_y + bar_height +
              5, xp, max_xp, bar_color="cyan")
 
