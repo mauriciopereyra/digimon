@@ -224,8 +224,8 @@ def calculate_points():
             if task[DATE_DONE]:
                 xp += task[POINTS]
             else:
-                xp -= min(task[POINTS] * 3, 20)
-                hp -= min(task[POINTS] * 3, 20)
+                xp -= min(task[POINTS] * 2, 20)
+                hp -= min(task[POINTS] * 2, 20)
 
         print(hp)
 
@@ -250,6 +250,8 @@ def calculate_points():
 
 
 def set_wallpaper(current_level, hp, xp, max_xp):
+    last_reset = get_last_reset(conn, cur)
+
     # Lista de imágenes base
     image_paths = [
         '/home/mauricio/github/digimon/wallpapers/koromon.png',
@@ -285,6 +287,7 @@ def set_wallpaper(current_level, hp, xp, max_xp):
     bar_height = font_size
 
     def draw_bar(draw, x, y, current, maximum, bar_color, bg_color="gray"):
+
         # Barra de fondo
         draw.rectangle([x, y, x + bar_width, y + bar_height], fill=bg_color)
         # Barra actual
@@ -299,6 +302,16 @@ def set_wallpaper(current_level, hp, xp, max_xp):
         text_x = x + (bar_width - text_width) / 2
         text_y = y + (bar_height - text_height) / 2 - 3
         draw.text((text_x, text_y), text, fill="white", font=font)
+
+    # draw date of birth (last reset)
+    dob_font_size = max(10, int(img.height * 0.02))
+    dob_font = ImageFont.truetype(
+        "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf", dob_font_size
+    )
+    dob_x = margin_x + bar_width - 90
+    dob_y = 100
+    draw.text((dob_x, dob_y), datetime.strftime(
+        last_reset, "%d/%m/%Y"), fill="white", font=dob_font)
 
     # Dibujar HP
     hp = max(0, hp)
