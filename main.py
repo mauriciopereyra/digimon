@@ -7,6 +7,7 @@ from datetime import datetime, date, timedelta
 import psycopg2
 import sys
 import os
+from google_api import get_calendar_service, remove_all_events, add_event, remove_future_events
 
 # DB columns
 
@@ -224,7 +225,7 @@ def calculate_points():
             if task[DATE_DONE]:
                 xp += task[POINTS]
             else:
-                xp -= min(task[POINTS] * 2, 20)
+                xp -= min(task[POINTS] * 1, 20)
                 hp -= min(task[POINTS] * 2, 20)
 
         print(hp)
@@ -327,6 +328,65 @@ def set_wallpaper(current_level, hp, xp, max_xp):
     os.system(command)
     print(f"Wallpaper set to: {temp_image}")
 
+
+def get_tasks_for_calendar():
+    now = datetime.now()
+
+    tasks = get_clickup_tasks()
+    # filter spanish classes tasks
+    tasks = filter(lambda x: x['list']['id'] == '901808675033', tasks)
+
+    # filter actual classes
+    regex = re.compile(
+        r'\b((?:1[0-2]|0?[1-9])(?:[:\.][0-5][0-9])?)\s?(am|pm)\b',
+        re.IGNORECASE
+    )
+    tasks = list(filter(lambda x: regex.search(x['name']), tasks))
+    # get and format task dates
+    for task in tasks:
+
+        task['new_datetime'] = datetime.fromtimestamp(
+            int(task['due_date']) / 1000)
+
+        m = regex.search(task['name'])
+        new_hours = m.group(1).split('.')[0].split(':')[0]
+        new_minutes = m.group(1).split('.')[1] if (
+            len(m.group(1).split('.')) > 1) else 0
+        am_pm = m.group(2)
+        new_hours = int(new_hours)
+        if new_hours == 12 and am_pm == 'pm':
+            new_hours = 12
+        elif am_pm == 'pm':
+            new_hours += 12
+
+        task['new_datetime'] = task['new_datetime'].replace(
+            hour=int(new_hours), minute=int(new_minutes), second=0)
+
+    # filter only future classes
+    tasks = list(filter(lambda x: x['new_datetime'] >= now, tasks))
+
+    return tasks
+
+
+def sync_google_calendar():
+    tasks = get_tasks_for_calendar()
+    for task in tasks:
+        print(task['new_datetime'])
+
+    service = get_calendar_service()
+
+    remove_future_events(service)
+
+    for task in tasks:
+        print('Adding', task['name'], task['new_datetime'])
+        add_event(service, task['name'], task['new_datetime'])
+
+
+try:
+    sync_google_calendar()
+except Exception as e:
+    print("Calendar sync failed")
+    print(e)
 
 try:
     if len(sys.argv) < 2 or sys.argv[1] == 'refresh':
