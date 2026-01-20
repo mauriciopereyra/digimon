@@ -8,6 +8,7 @@ import psycopg2
 import sys
 import os
 from google_api import get_calendar_service, remove_all_events, add_event, remove_future_events
+import traceback
 
 # DB columns
 
@@ -228,9 +229,12 @@ def calculate_points():
                 xp -= min(task[POINTS] * 1, 20)
                 hp -= min(task[POINTS] * 2, 20)
 
+            print("hp:", hp)
+            print("xp:", xp)
+
         print(hp)
 
-    if hp < 0:
+    if hp <= 0:
         insert_reset(conn, cur)
         calculate_points()
 
@@ -345,8 +349,15 @@ def get_tasks_for_calendar():
     # get and format task dates
     for task in tasks:
 
-        task['new_datetime'] = datetime.fromtimestamp(
-            int(task['due_date']) / 1000)
+        task['new_datetime'] = None
+
+        try:
+            task['new_datetime'] = datetime.fromtimestamp(
+                int(task['due_date']) / 1000)
+        except:
+            # print(task['name'])
+            # print(task)
+            continue
 
         m = regex.search(task['name'])
         new_hours = m.group(1).split('.')[0].split(':')[0]
@@ -363,6 +374,7 @@ def get_tasks_for_calendar():
             hour=int(new_hours), minute=int(new_minutes), second=0)
 
     # filter only future classes
+    tasks = list(filter(lambda x: x['new_datetime'] is not None, tasks))
     tasks = list(filter(lambda x: x['new_datetime'] >= now, tasks))
 
     return tasks
@@ -383,12 +395,6 @@ def sync_google_calendar():
 
 
 try:
-    sync_google_calendar()
-except Exception as e:
-    print("Calendar sync failed")
-    print(e)
-
-try:
     if len(sys.argv) < 2 or sys.argv[1] == 'refresh':
         refresh()
     if len(sys.argv) < 2 or sys.argv[1] == 'calculate':
@@ -400,3 +406,11 @@ finally:
     # Close cursor and connection
     cur.close()
     conn.close()
+
+
+try:
+    sync_google_calendar()
+except Exception as e:
+    print("Calendar sync failed")
+    print(e)
+    traceback.print_exc()
