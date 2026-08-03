@@ -23,13 +23,33 @@ DATE_DONE = 5
 POINTS = 6
 
 
+# for raspberry
+# def connect_to_db():
+#     # DATABASE
+#     # Create a connection
+#     conn = psycopg2.connect(
+#         user="postgres",
+#         password="postgres",
+#         host="192.168.1.131",
+#         port=5432,
+#         database="digimon"
+#     )
+
+#     # Create a cursor to execute queries
+#     cur = conn.cursor()
+#     # END DATABASE
+
+#     return conn, cur
+
+
+# for local
 def connect_to_db():
     # DATABASE
     # Create a connection
     conn = psycopg2.connect(
         user="postgres",
         password="postgres",
-        host="192.168.1.131",
+        host="localhost",
         port=5432,
         database="digimon"
     )
@@ -41,7 +61,14 @@ def connect_to_db():
     return conn, cur
 
 
-conn, cur = connect_to_db()
+cur = None
+conn = None
+try:
+    conn, cur = connect_to_db()
+    print("Connected to database")
+except Exception as e:
+    print(e)
+    print("Cannot connect to database")
 
 
 def get_saved_tasks(conn, cur):
@@ -209,11 +236,14 @@ def calculate_points():
     last_reset = get_last_reset(conn, cur)
     today = datetime.now()
 
+    print("last reset:", last_reset)
+
     # recover hp by day
     daily_hp = 10
     days_passed = (today.date() - last_reset.date()).days
 
     for delta_day in range(days_passed, -1, -1):
+        print(delta_day)
         current_day = (today - timedelta(days=delta_day)).date()
         print(f'Current day is {current_day}')
 
@@ -222,7 +252,9 @@ def calculate_points():
             if hp > 100:
                 hp = 100
 
+        print(list(saved_active_tasks))
         for task in list(filter(lambda task: task[DATE_ADDED].date() == current_day, saved_active_tasks)):
+            print(task)
             if task[DATE_DONE]:
                 xp += task[POINTS]
             else:
@@ -404,13 +436,14 @@ except Exception as e:
     print(e)
 finally:
     # Close cursor and connection
-    cur.close()
-    conn.close()
+    if cur and conn:
+        cur.close()
+        conn.close()
 
 
-try:
-    sync_google_calendar()
-except Exception as e:
-    print("Calendar sync failed")
-    print(e)
-    traceback.print_exc()
+# try:
+#     sync_google_calendar()
+# except Exception as e:
+#     print("Calendar sync failed")
+#     print(e)
+#     traceback.print_exc()
