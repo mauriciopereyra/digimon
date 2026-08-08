@@ -83,11 +83,15 @@ def get_saved_tasks(conn, cur):
 def get_saved_active_tasks(conn, cur):
 
     # Example query
-    cur.execute("""SELECT *
+    cur.execute("""
+        SELECT *
         FROM tasks
-        WHERE date_added > (
-            SELECT MAX(datetime) FROM resets
-        );""")
+        WHERE date_added > (SELECT MAX(datetime) FROM resets)
+        AND (
+            date_done > (SELECT MAX(datetime) FROM resets)
+            OR date_done IS NULL
+        );
+                """)
     saved_tasks = cur.fetchall()
 
     return [list(row) for row in saved_tasks]
@@ -245,26 +249,30 @@ def calculate_points():
     for delta_day in range(days_passed, -1, -1):
         print(delta_day)
         current_day = (today - timedelta(days=delta_day)).date()
-        print(f'Current day is {current_day}')
+        print(f'> Current day is {current_day}')
 
         if not current_day == last_reset.date():
             hp += daily_hp
             if hp > 100:
                 hp = 100
 
-        print(list(saved_active_tasks))
-        for task in list(filter(lambda task: task[DATE_ADDED].date() == current_day, saved_active_tasks)):
+        for task in list(filter(lambda task: task[DATE_DONE] and task[DATE_DONE].date() == current_day, saved_active_tasks)):
+            # GET DONE TASKS TO ADD XP. DONE TASKS ON SAME DAY THAN THE CURRENT DAY IN THE ITERATION.
+            xp += task[POINTS]
+
+        for task in list(filter(lambda task: (not task[DATE_DONE]) and
+                                (current_day - task[DUE_DATE].date()).days == 1, saved_active_tasks)):
+            # GET NOT DONE TASKS TO DECREASE HP. TASKS ARE ADDED IN THE SYSTEM CONTINOUSLY WHEN NOT DONE.
+            # SO WILL DISCOUNT HP ONLY WHEN THE SELECTED TASK WAS DUE FOR PREVIOUS DAY THAN CURRENT DAY IN THE ITERATION.
+            print('----------------')
             print(task)
-            if task[DATE_DONE]:
-                xp += task[POINTS]
-            else:
-                xp -= min(task[POINTS] * 1, 20)
-                hp -= min(task[POINTS] * 2, 20)
+            # xp -= min(task[POINTS] * 1, 20)
+            hp -= min(task[POINTS] * 2, 20)
+            print('removing', min(task[POINTS] * 2, 20), 'hp')
+            print('----------------')
 
-            print("hp:", hp)
-            print("xp:", xp)
-
-        print(hp)
+        print("hp:", hp)
+        print("xp:", xp)
 
     if hp <= 0:
         insert_reset(conn, cur)
