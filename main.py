@@ -243,7 +243,7 @@ def calculate_points():
     print("last reset:", last_reset)
 
     # recover hp by day
-    daily_hp = 10
+    daily_hp = 20
     days_passed = (today.date() - last_reset.date()).days
 
     for delta_day in range(days_passed, -1, -1):
