@@ -234,7 +234,8 @@ def refresh():
 
 def calculate_points():
     levels = [0, 150, 1000, 3000, 5000, 20000]
-    hp = 100
+    max_hps = [50, 100, 150, 200, 250]
+    hp = 50
     xp = 0
     saved_active_tasks = get_saved_active_tasks(conn, cur)
     last_reset = get_last_reset(conn, cur)
@@ -246,15 +247,25 @@ def calculate_points():
     daily_hp = 20
     days_passed = (today.date() - last_reset.date()).days
 
+    # get max hp for the corresponding level
+    def get_max_hp(xp):
+        saved_index = 0
+        for index, level_max_xp in enumerate(levels):
+            if xp < level_max_xp:
+                return max_hps[saved_index]
+            else:
+                saved_index = index
+
     for delta_day in range(days_passed, -1, -1):
         print(delta_day)
+        max_hp = get_max_hp(xp)
         current_day = (today - timedelta(days=delta_day)).date()
         print(f'> Current day is {current_day}')
 
         if not current_day == last_reset.date():
             hp += daily_hp
-            if hp > 100:
-                hp = 100
+            if hp > max_hp:
+                hp = max_hp
 
         for task in list(filter(lambda task: task[DATE_DONE] and task[DATE_DONE].date() == current_day, saved_active_tasks)):
             # GET DONE TASKS TO ADD XP. DONE TASKS ON SAME DAY THAN THE CURRENT DAY IN THE ITERATION.
@@ -274,6 +285,8 @@ def calculate_points():
         print("hp:", hp)
         print("xp:", xp)
 
+        max_hp = get_max_hp(xp)
+
     if hp <= 0:
         insert_reset(conn, cur)
         calculate_points()
@@ -291,10 +304,10 @@ def calculate_points():
 
     max_xp = levels[current_level+1]
 
-    return current_level, hp, xp, max_xp
+    return current_level, hp, xp, max_xp, max_hp
 
 
-def set_wallpaper(current_level, hp, xp, max_xp):
+def set_wallpaper(current_level, hp, xp, max_xp, max_hp):
     last_reset = get_last_reset(conn, cur)
 
     # Lista de imágenes base
@@ -305,8 +318,6 @@ def set_wallpaper(current_level, hp, xp, max_xp):
         '/home/mauricio/github/digimon/wallpapers/metal_greymon.png',
         '/home/mauricio/github/digimon/wallpapers/war_greymon.png',
     ]
-
-    max_hp = 100
 
     base_image = image_paths[current_level]
     if not os.path.isfile(base_image):
@@ -438,8 +449,8 @@ try:
     if len(sys.argv) < 2 or sys.argv[1] == 'refresh':
         refresh()
     if len(sys.argv) < 2 or sys.argv[1] == 'calculate':
-        current_level, hp, xp, max_xp = calculate_points()
-        set_wallpaper(current_level, hp, xp, max_xp)
+        current_level, hp, xp, max_xp, max_hp = calculate_points()
+        set_wallpaper(current_level, hp, xp, max_xp, max_hp)
 except Exception as e:
     print(e)
 finally:
