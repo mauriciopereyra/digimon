@@ -153,7 +153,8 @@ def get_clickup_tasks():
         'extra income': 901807369175,
         'personal': 901805493143,
         'tony fc': 901805493148,
-        'test': 901811795053
+        'test': 901811795053,
+        'thai academy': 1100230000001825
     }
 
     # GET CLICKUP TASKS #
@@ -249,23 +250,16 @@ def calculate_points():
 
     # get max hp for the corresponding level
     def get_max_hp(xp):
-        saved_index = 0
-        for index, level_max_xp in enumerate(levels):
-            if xp < level_max_xp:
-                return max_hps[saved_index]
-            else:
-                saved_index = index
+        for i, level_xp in enumerate(levels[1:]):
+            if xp < level_xp:
+                return max_hps[i]
+        return max_hps[-1]
 
     for delta_day in range(days_passed, -1, -1):
         print(delta_day)
         max_hp = get_max_hp(xp)
         current_day = (today - timedelta(days=delta_day)).date()
         print(f'> Current day is {current_day}')
-
-        if not current_day == last_reset.date():
-            hp += daily_hp
-            if hp > max_hp:
-                hp = max_hp
 
         for task in list(filter(lambda task: task[DATE_DONE] and task[DATE_DONE].date() == current_day, saved_active_tasks)):
             # GET DONE TASKS TO ADD XP. DONE TASKS ON SAME DAY THAN THE CURRENT DAY IN THE ITERATION.
@@ -285,11 +279,21 @@ def calculate_points():
         print("hp:", hp)
         print("xp:", xp)
 
-        max_hp = get_max_hp(xp)
+        # RESET DIGIMON AFTER CHECKING TASKS
+        if hp <= 0:
+            insert_reset(conn, cur)
+            return calculate_points()
 
-    if hp <= 0:
-        insert_reset(conn, cur)
-        calculate_points()
+        # INCREASE DAILY HP AFTER CHECKING PENDING TASKS
+        if not current_day == last_reset.date():
+            hp += daily_hp
+            if hp > max_hp:
+                hp = max_hp
+
+        print("hp:", hp)
+        print("xp:", xp)
+
+        max_hp = get_max_hp(xp)
 
     print(f'HP is {hp}')
     print(f'XP is {xp}')
@@ -451,6 +455,9 @@ try:
     if len(sys.argv) < 2 or sys.argv[1] == 'calculate':
         current_level, hp, xp, max_xp, max_hp = calculate_points()
         set_wallpaper(current_level, hp, xp, max_xp, max_hp)
+    if len(sys.argv) > 2:
+        if sys.argv[1] == 'reset':
+            insert_reset(conn, cur)
 except Exception as e:
     print(e)
 finally:
