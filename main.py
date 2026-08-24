@@ -455,7 +455,7 @@ try:
     if len(sys.argv) < 2 or sys.argv[1] == 'calculate':
         current_level, hp, xp, max_xp, max_hp = calculate_points()
         set_wallpaper(current_level, hp, xp, max_xp, max_hp)
-    if len(sys.argv) > 2:
+    if len(sys.argv) > 1:
         if sys.argv[1] == 'reset':
             insert_reset(conn, cur)
 except Exception as e:
